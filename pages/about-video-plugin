@@ -1,0 +1,632 @@
+{
+  "title": "About Video Plugin",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "d618f0df06ca75db",
+      "text": "The Video Plugin embeds a video player on a wiki page. The video itself must be uploaded to YouTube or Vimeo and the key from that service used to configure the plugin."
+    },
+    {
+      "type": "video",
+      "id": "c4fe571a7d4b9266",
+      "text": "YOUTUBE ziMLDgsefi0\nWe show how to drag and drop pages into one browser tab before making them part of one wiki."
+    },
+    {
+      "type": "paragraph",
+      "id": "016470be0fd656b0",
+      "text": "See [https://github.com/fedwiki/wiki-plugin-video GitHub] for plugin source."
+    },
+    {
+      "type": "paragraph",
+      "id": "766ee886eec15a62",
+      "text": "<h3> Keys"
+    },
+    {
+      "type": "paragraph",
+      "id": "0bd440c25f153ed9",
+      "text": "Find the key for your video in its url or embed code."
+    },
+    {
+      "type": "paragraph",
+      "id": "0965aefa76be52c8",
+      "text": "YouTube keys are letters and digits, like ziMLDgsefi0"
+    },
+    {
+      "type": "code",
+      "id": "fba1060fa13d3f4d",
+      "text": "http://youtu.be/ziMLDgsefi0"
+    },
+    {
+      "type": "code",
+      "id": "65c9b3bdb77605cc",
+      "text": "http://www.youtube.com/watch?v=ziMLDgsefi0"
+    },
+    {
+      "type": "code",
+      "id": "a252d2b4f7c83524",
+      "text": "<iframe width=\"420\" height=\"315\" src=\"//www.youtube.com/embed/ziMLDgsefi0?rel=0\" frameborder=\"0\" allowfullscreen></iframe>"
+    },
+    {
+      "type": "paragraph",
+      "id": "8595e1e06ca0aacc",
+      "text": "Vimeo keys are numbers, like 30340726"
+    },
+    {
+      "type": "code",
+      "id": "290c76f66e3e9c3b",
+      "text": "http://vimeo.com/30340726"
+    },
+    {
+      "type": "code",
+      "id": "dd0ce1f995eb7100",
+      "text": "<iframe src=\"//player.vimeo.com/video/30340726?title=0&amp;byline=0&amp;portrait=0\" width=\"420\" height=\"263\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    },
+    {
+      "type": "paragraph",
+      "id": "df4d9685b5f1a93c",
+      "text": "<h3> Commands"
+    },
+    {
+      "type": "paragraph",
+      "id": "edd992beacdadf20",
+      "text": "Double-click the caption to enter a key or change the caption. "
+    },
+    {
+      "type": "paragraph",
+      "id": "31ed01021009e01c",
+      "text": "Say <b>YOUTUBE</b> and a key from YouTube."
+    },
+    {
+      "type": "paragraph",
+      "id": "2b9d57899e235839",
+      "text": "Say <b>VIMEO</b> and a key from Vimeo."
+    },
+    {
+      "type": "paragraph",
+      "id": "1adccc792e546ac6",
+      "text": "Say other things for the caption."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "About Video Plugin",
+        "story": [
+          {
+            "type": "paragraph",
+            "id": "d618f0df06ca75db",
+            "text": "Here we describe the purpose of the plugin and include a sample."
+          },
+          {
+            "type": "video",
+            "id": "c4fe571a7d4b9266",
+            "text": "This is text in the new plugin. You can double-click to edit it too."
+          }
+        ]
+      },
+      "date": 1402773685000,
+      "certificate": "from mkplugin.sh"
+    },
+    {
+      "type": "edit",
+      "id": "d618f0df06ca75db",
+      "item": {
+        "type": "paragraph",
+        "id": "d618f0df06ca75db",
+        "text": "The Video Plugin embeds a video player on a wiki page. The video itself must be uploaded to YouTube or Vimeo and the key from that service entered in one of the commands below."
+      },
+      "date": 1402782368676
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "529fcb5edf803a7f",
+        "text": ""
+      },
+      "id": "529fcb5edf803a7f",
+      "type": "add",
+      "after": "d618f0df06ca75db",
+      "date": 1402782368696
+    },
+    {
+      "type": "remove",
+      "id": "529fcb5edf803a7f",
+      "date": 1402782373534
+    },
+    {
+      "type": "edit",
+      "id": "c4fe571a7d4b9266",
+      "item": {
+        "type": "video",
+        "id": "c4fe571a7d4b9266",
+        "text": "YOUTUBE ziMLDgsefi0\nThis is text in the new plugin. You can double-click to edit it too."
+      },
+      "date": 1402782452917
+    },
+    {
+      "type": "edit",
+      "id": "c4fe571a7d4b9266",
+      "item": {
+        "type": "video",
+        "id": "c4fe571a7d4b9266",
+        "text": "YOUTUBE ziMLDgsefi0\nWe show how to drag and drop pages into one browser tab before making them part of one wiki."
+      },
+      "date": 1402782492460
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "df4d9685b5f1a93c"
+      },
+      "id": "df4d9685b5f1a93c",
+      "type": "add",
+      "after": "c4fe571a7d4b9266",
+      "date": 1402782504027
+    },
+    {
+      "type": "edit",
+      "id": "df4d9685b5f1a93c",
+      "item": {
+        "type": "paragraph",
+        "id": "df4d9685b5f1a93c",
+        "text": "<h3> Commands"
+      },
+      "date": 1402782577763
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "31ed01021009e01c",
+        "text": ""
+      },
+      "id": "31ed01021009e01c",
+      "type": "add",
+      "after": "df4d9685b5f1a93c",
+      "date": 1402782577781
+    },
+    {
+      "type": "edit",
+      "id": "31ed01021009e01c",
+      "item": {
+        "type": "paragraph",
+        "id": "31ed01021009e01c",
+        "text": "Say YOUTUBE"
+      },
+      "date": 1402782607280
+    },
+    {
+      "type": "edit",
+      "id": "d618f0df06ca75db",
+      "item": {
+        "type": "paragraph",
+        "id": "d618f0df06ca75db",
+        "text": "The Video Plugin embeds a video player on a wiki page. The video itself must be uploaded to YouTube or Vimeo and the key from that service used to configure the plugin."
+      },
+      "date": 1402784544972
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "766ee886eec15a62"
+      },
+      "id": "766ee886eec15a62",
+      "type": "add",
+      "after": "31ed01021009e01c",
+      "date": 1402784560033
+    },
+    {
+      "type": "edit",
+      "id": "766ee886eec15a62",
+      "item": {
+        "type": "paragraph",
+        "id": "766ee886eec15a62",
+        "text": "<h3> Keys"
+      },
+      "date": 1402784579427
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "0bd440c25f153ed9",
+        "text": ""
+      },
+      "id": "0bd440c25f153ed9",
+      "type": "add",
+      "after": "766ee886eec15a62",
+      "date": 1402784579440
+    },
+    {
+      "type": "edit",
+      "id": "0bd440c25f153ed9",
+      "item": {
+        "type": "paragraph",
+        "id": "0bd440c25f153ed9",
+        "text": "Find the key for your video in its url or embed code."
+      },
+      "date": 1402784614889
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "0965aefa76be52c8",
+        "text": ""
+      },
+      "id": "0965aefa76be52c8",
+      "type": "add",
+      "after": "0bd440c25f153ed9",
+      "date": 1402784614906
+    },
+    {
+      "type": "edit",
+      "id": "0965aefa76be52c8",
+      "item": {
+        "type": "paragraph",
+        "id": "0965aefa76be52c8",
+        "text": "YouTube keys are letters and numbers."
+      },
+      "date": 1402784633816
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "fba1060fa13d3f4d"
+      },
+      "id": "fba1060fa13d3f4d",
+      "type": "add",
+      "after": "0965aefa76be52c8",
+      "date": 1402784678289
+    },
+    {
+      "type": "edit",
+      "id": "fba1060fa13d3f4d",
+      "item": {
+        "type": "code",
+        "id": "fba1060fa13d3f4d",
+        "text": "http://youtu.be/ziMLDgsefi0"
+      },
+      "date": 1402784682751
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "65c9b3bdb77605cc"
+      },
+      "id": "65c9b3bdb77605cc",
+      "type": "add",
+      "after": "fba1060fa13d3f4d",
+      "date": 1402784712687
+    },
+    {
+      "type": "edit",
+      "id": "65c9b3bdb77605cc",
+      "item": {
+        "type": "code",
+        "id": "65c9b3bdb77605cc",
+        "text": "http://www.youtube.com/watch?v=ziMLDgsefi0"
+      },
+      "date": 1402784717050
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a252d2b4f7c83524"
+      },
+      "id": "a252d2b4f7c83524",
+      "type": "add",
+      "after": "65c9b3bdb77605cc",
+      "date": 1402784735774
+    },
+    {
+      "type": "edit",
+      "id": "a252d2b4f7c83524",
+      "item": {
+        "type": "code",
+        "id": "a252d2b4f7c83524",
+        "text": "<iframe width=\"420\" height=\"315\" src=\"//www.youtube.com/embed/ziMLDgsefi0?rel=0\" frameborder=\"0\" allowfullscreen></iframe>"
+      },
+      "date": 1402784740659
+    },
+    {
+      "type": "move",
+      "order": [
+        "d618f0df06ca75db",
+        "c4fe571a7d4b9266",
+        "df4d9685b5f1a93c",
+        "31ed01021009e01c",
+        "766ee886eec15a62",
+        "0bd440c25f153ed9",
+        "fba1060fa13d3f4d",
+        "0965aefa76be52c8",
+        "65c9b3bdb77605cc",
+        "a252d2b4f7c83524"
+      ],
+      "id": "fba1060fa13d3f4d",
+      "date": 1402784765783
+    },
+    {
+      "type": "move",
+      "order": [
+        "d618f0df06ca75db",
+        "c4fe571a7d4b9266",
+        "df4d9685b5f1a93c",
+        "31ed01021009e01c",
+        "766ee886eec15a62",
+        "0bd440c25f153ed9",
+        "0965aefa76be52c8",
+        "fba1060fa13d3f4d",
+        "65c9b3bdb77605cc",
+        "a252d2b4f7c83524"
+      ],
+      "id": "fba1060fa13d3f4d",
+      "date": 1402784779204
+    },
+    {
+      "type": "edit",
+      "id": "0965aefa76be52c8",
+      "item": {
+        "type": "paragraph",
+        "id": "0965aefa76be52c8",
+        "text": "YouTube keys are letters and numbers, like ziMLDgsefi0"
+      },
+      "date": 1402784788436
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8595e1e06ca0aacc"
+      },
+      "id": "8595e1e06ca0aacc",
+      "type": "add",
+      "after": "a252d2b4f7c83524",
+      "date": 1402784798095
+    },
+    {
+      "type": "edit",
+      "id": "8595e1e06ca0aacc",
+      "item": {
+        "type": "paragraph",
+        "id": "8595e1e06ca0aacc",
+        "text": "Vimeo keys are numbers."
+      },
+      "date": 1402784814450
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "290c76f66e3e9c3b"
+      },
+      "id": "290c76f66e3e9c3b",
+      "type": "add",
+      "after": "8595e1e06ca0aacc",
+      "date": 1402784831503
+    },
+    {
+      "type": "edit",
+      "id": "290c76f66e3e9c3b",
+      "item": {
+        "type": "code",
+        "id": "290c76f66e3e9c3b",
+        "text": "http://vimeo.com/30340726"
+      },
+      "date": 1402784836567
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "dd0ce1f995eb7100"
+      },
+      "id": "dd0ce1f995eb7100",
+      "type": "add",
+      "after": "290c76f66e3e9c3b",
+      "date": 1402784892171
+    },
+    {
+      "type": "edit",
+      "id": "dd0ce1f995eb7100",
+      "item": {
+        "type": "code",
+        "id": "dd0ce1f995eb7100",
+        "text": "<iframe src=\"//player.vimeo.com/video/30340726?title=0&amp;byline=0&amp;portrait=0\" width=\"420\" height=\"263\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+      },
+      "date": 1402784896061
+    },
+    {
+      "type": "edit",
+      "id": "8595e1e06ca0aacc",
+      "item": {
+        "type": "paragraph",
+        "id": "8595e1e06ca0aacc",
+        "text": "Vimeo keys are numbers, like 30340726"
+      },
+      "date": 1402784914200
+    },
+    {
+      "type": "edit",
+      "id": "0965aefa76be52c8",
+      "item": {
+        "type": "paragraph",
+        "id": "0965aefa76be52c8",
+        "text": "YouTube keys are letters and digits, like ziMLDgsefi0"
+      },
+      "date": 1402784929086
+    },
+    {
+      "type": "move",
+      "order": [
+        "d618f0df06ca75db",
+        "c4fe571a7d4b9266",
+        "31ed01021009e01c",
+        "766ee886eec15a62",
+        "0bd440c25f153ed9",
+        "0965aefa76be52c8",
+        "fba1060fa13d3f4d",
+        "65c9b3bdb77605cc",
+        "a252d2b4f7c83524",
+        "8595e1e06ca0aacc",
+        "290c76f66e3e9c3b",
+        "dd0ce1f995eb7100",
+        "df4d9685b5f1a93c"
+      ],
+      "id": "df4d9685b5f1a93c",
+      "date": 1402784960280
+    },
+    {
+      "type": "move",
+      "order": [
+        "d618f0df06ca75db",
+        "c4fe571a7d4b9266",
+        "766ee886eec15a62",
+        "0bd440c25f153ed9",
+        "0965aefa76be52c8",
+        "fba1060fa13d3f4d",
+        "65c9b3bdb77605cc",
+        "a252d2b4f7c83524",
+        "8595e1e06ca0aacc",
+        "290c76f66e3e9c3b",
+        "dd0ce1f995eb7100",
+        "df4d9685b5f1a93c",
+        "31ed01021009e01c"
+      ],
+      "id": "31ed01021009e01c",
+      "date": 1402784967384
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "2b9d57899e235839",
+        "text": ""
+      },
+      "id": "2b9d57899e235839",
+      "type": "add",
+      "after": "31ed01021009e01c",
+      "date": 1402785002198
+    },
+    {
+      "type": "edit",
+      "id": "2b9d57899e235839",
+      "item": {
+        "type": "paragraph",
+        "id": "2b9d57899e235839",
+        "text": "Say <b>VIMEO</b> and a key from Vimeo."
+      },
+      "date": 1402785019772
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "1adccc792e546ac6",
+        "text": ""
+      },
+      "id": "1adccc792e546ac6",
+      "type": "add",
+      "after": "2b9d57899e235839",
+      "date": 1402785019789
+    },
+    {
+      "type": "edit",
+      "id": "1adccc792e546ac6",
+      "item": {
+        "type": "paragraph",
+        "id": "1adccc792e546ac6",
+        "text": "Say other things for the caption."
+      },
+      "date": 1402785049219
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "edd992beacdadf20",
+        "text": ""
+      },
+      "id": "edd992beacdadf20",
+      "type": "add",
+      "after": "df4d9685b5f1a93c",
+      "date": 1402785054604
+    },
+    {
+      "type": "edit",
+      "id": "edd992beacdadf20",
+      "item": {
+        "type": "paragraph",
+        "id": "edd992beacdadf20",
+        "text": "Double-click the caption to enter a key or change the caption."
+      },
+      "date": 1402785103506
+    },
+    {
+      "type": "edit",
+      "id": "edd992beacdadf20",
+      "item": {
+        "type": "paragraph",
+        "id": "edd992beacdadf20",
+        "text": "Double-click the caption to enter a key or change the caption. "
+      },
+      "date": 1402785122969
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "016470be0fd656b0"
+      },
+      "id": "016470be0fd656b0",
+      "type": "add",
+      "after": "1adccc792e546ac6",
+      "date": 1402785217935
+    },
+    {
+      "type": "edit",
+      "id": "016470be0fd656b0",
+      "item": {
+        "type": "paragraph",
+        "id": "016470be0fd656b0",
+        "text": "Find the source for this plugin on [https://github.com/fedwiki/wiki-plugin-video GitHub]."
+      },
+      "date": 1402785285620
+    },
+    {
+      "type": "move",
+      "order": [
+        "d618f0df06ca75db",
+        "c4fe571a7d4b9266",
+        "016470be0fd656b0",
+        "766ee886eec15a62",
+        "0bd440c25f153ed9",
+        "0965aefa76be52c8",
+        "fba1060fa13d3f4d",
+        "65c9b3bdb77605cc",
+        "a252d2b4f7c83524",
+        "8595e1e06ca0aacc",
+        "290c76f66e3e9c3b",
+        "dd0ce1f995eb7100",
+        "df4d9685b5f1a93c",
+        "edd992beacdadf20",
+        "31ed01021009e01c",
+        "2b9d57899e235839",
+        "1adccc792e546ac6"
+      ],
+      "id": "016470be0fd656b0",
+      "date": 1402785292157
+    },
+    {
+      "type": "edit",
+      "id": "016470be0fd656b0",
+      "item": {
+        "type": "paragraph",
+        "id": "016470be0fd656b0",
+        "text": "See [https://github.com/fedwiki/wiki-plugin-video GitHub] for plugin source."
+      },
+      "date": 1402785320758
+    },
+    {
+      "type": "edit",
+      "id": "31ed01021009e01c",
+      "item": {
+        "type": "paragraph",
+        "id": "31ed01021009e01c",
+        "text": "Say <b>YOUTUBE</b> and a key from YouTube."
+      },
+      "date": 1402786273361
+    }
+  ]
+}

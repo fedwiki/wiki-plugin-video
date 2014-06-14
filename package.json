@@ -1,0 +1,42 @@
+{
+  "name": "wiki-plugin-video",
+  "version": "0.0.1",
+  "description": "Federated Wiki - Video Plugin",
+  "keywords": [
+    "video",
+    "wiki",
+    "federated wiki",
+    "plugin"
+  ],
+  "author": {
+    "name": "Ward Cunningham",
+    "email": "ward@c2.com",
+    "url": "http://ward.fed.wiki.org"
+  },
+  "contributors": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "browserify": "^4.1.8",
+    "coffeeify": "^0.6.0",
+    "grunt-browserify": "^2.1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4",
+    "grunt-contrib-coffee": "~0.10",
+    "grunt-contrib-watch": "~0.6"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedwiki/wiki-plugin-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fedwiki/wiki-plugin-html/issues"
+  },
+  "engines": {
+    "node": "0.10"
+  }
+}
+
