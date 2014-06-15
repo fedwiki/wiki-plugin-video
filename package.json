@@ -17,11 +17,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "browserify": "^4.1.8",
-    "coffeeify": "^0.6.0",
-    "grunt-browserify": "^2.1.0"
-  },
   "devDependencies": {
     "grunt": "~0.4",
     "grunt-contrib-coffee": "~0.10",
@@ -39,4 +34,3 @@
     "node": "0.10"
   }
 }
-
