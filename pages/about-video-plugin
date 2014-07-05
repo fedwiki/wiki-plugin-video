@@ -4,12 +4,7 @@
     {
       "type": "paragraph",
       "id": "d618f0df06ca75db",
-      "text": "The Video Plugin embeds a video player on a wiki page. The video itself must be uploaded to YouTube or Vimeo and the key from that service used to configure the plugin."
-    },
-    {
-      "type": "video",
-      "id": "c4fe571a7d4b9266",
-      "text": "YOUTUBE ziMLDgsefi0\nWe show how to drag and drop pages into one browser tab before making them part of one wiki."
+      "text": "The Video Plugin embeds a video player on a wiki page. The video itself must be uploaded to YouTube or Vimeo and the key from that service used to configure the plugin. Drag and drop makes this easy in some cases."
     },
     {
       "type": "paragraph",
@@ -17,9 +12,34 @@
       "text": "See [https://github.com/fedwiki/wiki-plugin-video GitHub] for plugin source."
     },
     {
+      "type": "video",
+      "id": "c4fe571a7d4b9266",
+      "text": "YOUTUBE CI7T2iuGjjc\nMerritt Raitt's race to work is narrated by Tour de France TV commentators Phil Liggett and Paul Sherwin."
+    },
+    {
+      "type": "paragraph",
+      "id": "23467e76c7406b75",
+      "text": "<h3> Factory"
+    },
+    {
+      "type": "paragraph",
+      "id": "b262d0358a094b85",
+      "text": "You can drag and drop a youtube or vimeo video to a factory and have it turn into an embedded video. Drag the location item (not the tab) for either player. Or drag youtube/vimeo video thumbnails from the google search result pages."
+    },
+    {
+      "type": "paragraph",
+      "id": "288ca54be42b6221",
+      "text": "Double-click to edit the caption. The caption retains a little bit of wiki's click and drag behavior while the embedded video player 'owns' the rest of the item."
+    },
+    {
       "type": "paragraph",
       "id": "766ee886eec15a62",
       "text": "<h3> Keys"
+    },
+    {
+      "type": "paragraph",
+      "id": "0fe016e2e2cec946",
+      "text": "The plugin's text contains the caption and commands specifying player details especially the identification key used to select the video to be played. This can be edited manually."
     },
     {
       "type": "paragraph",
@@ -69,7 +89,7 @@
     {
       "type": "paragraph",
       "id": "edd992beacdadf20",
-      "text": "Double-click the caption to enter a key or change the caption. "
+      "text": "Double-click the caption to enter a key or change the caption."
     },
     {
       "type": "paragraph",
@@ -627,6 +647,186 @@
         "text": "Say <b>YOUTUBE</b> and a key from YouTube."
       },
       "date": 1402786273361
+    },
+    {
+      "type": "edit",
+      "id": "d618f0df06ca75db",
+      "item": {
+        "type": "paragraph",
+        "id": "d618f0df06ca75db",
+        "text": "The Video Plugin embeds a video player on a wiki page. The video itself must be uploaded to YouTube or Vimeo and the key from that service used to configure the plugin. Drag and drop makes this easy in some cases."
+      },
+      "date": 1404572237093
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "23467e76c7406b75",
+        "text": ""
+      },
+      "id": "23467e76c7406b75",
+      "type": "add",
+      "after": "016470be0fd656b0",
+      "date": 1404574256386
+    },
+    {
+      "type": "edit",
+      "id": "23467e76c7406b75",
+      "item": {
+        "type": "paragraph",
+        "id": "23467e76c7406b75",
+        "text": "<h3> Factory"
+      },
+      "date": 1404574298336
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "b262d0358a094b85",
+        "text": ""
+      },
+      "id": "b262d0358a094b85",
+      "type": "add",
+      "after": "23467e76c7406b75",
+      "date": 1404574298350
+    },
+    {
+      "type": "edit",
+      "id": "b262d0358a094b85",
+      "item": {
+        "type": "paragraph",
+        "id": "b262d0358a094b85",
+        "text": "You can drag and drop a youtube or vimeo video to a factory and have it turn into an embedded video. Drag the location item (not the tab) for either player. Or drag youtube/vimeo video thumbnails from the google search result pages."
+      },
+      "date": 1404575350506
+    },
+    {
+      "type": "edit",
+      "id": "c4fe571a7d4b9266",
+      "item": {
+        "type": "video",
+        "id": "c4fe571a7d4b9266",
+        "text": "YOUTUBE CI7T2iuGjjc\nPortland commuter Merritt Raitt's race to work is narrated by Tour de France TV commentators Phil Liggett and Paul Sherwin."
+      },
+      "date": 1404578326369
+    },
+    {
+      "type": "edit",
+      "id": "c4fe571a7d4b9266",
+      "item": {
+        "type": "video",
+        "id": "c4fe571a7d4b9266",
+        "text": "YOUTUBE CI7T2iuGjjc\nMerritt Raitt's race to work is narrated by Tour de France TV commentators Phil Liggett and Paul Sherwin."
+      },
+      "date": 1404578348793
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "288ca54be42b6221",
+        "text": ""
+      },
+      "id": "288ca54be42b6221",
+      "type": "add",
+      "after": "b262d0358a094b85",
+      "date": 1404578535408
+    },
+    {
+      "type": "edit",
+      "id": "288ca54be42b6221",
+      "item": {
+        "type": "paragraph",
+        "id": "288ca54be42b6221",
+        "text": "Double-click to edit the caption. The caption retains a little bit of wiki's click and drag behavior while the embedded video player 'owns' the rest of the item."
+      },
+      "date": 1404578804984
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "0fe016e2e2cec946",
+        "text": ""
+      },
+      "id": "0fe016e2e2cec946",
+      "type": "add",
+      "after": "766ee886eec15a62",
+      "date": 1404578823923
+    },
+    {
+      "type": "edit",
+      "id": "0fe016e2e2cec946",
+      "item": {
+        "type": "paragraph",
+        "id": "0fe016e2e2cec946",
+        "text": "The plugin's text contains the caption and commands specifying player details especially the identification key used to select the video to be played. This can be edited manually."
+      },
+      "date": 1404579090815
+    },
+    {
+      "type": "move",
+      "order": [
+        "d618f0df06ca75db",
+        "016470be0fd656b0",
+        "23467e76c7406b75",
+        "b262d0358a094b85",
+        "288ca54be42b6221",
+        "766ee886eec15a62",
+        "c4fe571a7d4b9266",
+        "0fe016e2e2cec946",
+        "0bd440c25f153ed9",
+        "0965aefa76be52c8",
+        "fba1060fa13d3f4d",
+        "65c9b3bdb77605cc",
+        "a252d2b4f7c83524",
+        "8595e1e06ca0aacc",
+        "290c76f66e3e9c3b",
+        "dd0ce1f995eb7100",
+        "df4d9685b5f1a93c",
+        "edd992beacdadf20",
+        "31ed01021009e01c",
+        "2b9d57899e235839",
+        "1adccc792e546ac6"
+      ],
+      "id": "c4fe571a7d4b9266",
+      "date": 1404579122629
+    },
+    {
+      "type": "move",
+      "order": [
+        "d618f0df06ca75db",
+        "016470be0fd656b0",
+        "c4fe571a7d4b9266",
+        "23467e76c7406b75",
+        "b262d0358a094b85",
+        "288ca54be42b6221",
+        "766ee886eec15a62",
+        "0fe016e2e2cec946",
+        "0bd440c25f153ed9",
+        "0965aefa76be52c8",
+        "fba1060fa13d3f4d",
+        "65c9b3bdb77605cc",
+        "a252d2b4f7c83524",
+        "8595e1e06ca0aacc",
+        "290c76f66e3e9c3b",
+        "dd0ce1f995eb7100",
+        "df4d9685b5f1a93c",
+        "edd992beacdadf20",
+        "31ed01021009e01c",
+        "2b9d57899e235839",
+        "1adccc792e546ac6"
+      ],
+      "id": "c4fe571a7d4b9266",
+      "date": 1404579144062
+    },
+    {
+      "type": "edit",
+      "id": "edd992beacdadf20",
+      "item": {
+        "type": "paragraph",
+        "id": "edd992beacdadf20",
+        "text": "Double-click the caption to enter a key or change the caption."
+      },
+      "date": 1404579288180
     }
   ]
 }
