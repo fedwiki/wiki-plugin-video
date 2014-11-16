@@ -2,7 +2,7 @@
 parse = (text='') ->
   result = {}
   for line in text.split /\r\n?|\n/
-    if args = line.match /^\s*([A-Z]+)\s+([\w\-]+)\s*$/
+    if args = line.match /^\s*([A-Z]+)\s+([\w\.\-]+)\s*$/
       result.player = args[1]
       result.key = args[2]
     else
@@ -28,6 +28,32 @@ embed = ({player, key}) ->
           width="420" height="263"
           frameborder="0"
           allowfullscreen>
+        </iframe>
+      """
+    when 'ARCHIVE'
+      """
+        <iframe
+          src="https://archive.org/embed/#{key}"
+          width="420" height="300"
+          frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"
+          allowfullscreen>
+        </iframe>
+      """
+    when 'TED'
+      """
+        <iframe
+          src="https://embed-ssl.ted.com/talks/#{key}.html"
+          width="420" height="300"
+          frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen
+          allowFullScreen>
+        </iframe>
+      """
+    when 'TEDX'
+      """
+        <iframe
+          src="http://tedxtalks.ted.com/video/#{key}/player?layout=&amp;read_more=1"
+          width="420" height="300"
+          frameborder="0" scrolling="no">
         </iframe>
       """
     else

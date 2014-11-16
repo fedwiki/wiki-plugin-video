@@ -1,0 +1,235 @@
+{
+  "title": "Key from a TED Talk",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "37c161aed68a076d",
+      "text": "We explain how to recognize media keys for this service. Read [[About Video Plugin]] to understand media keys and the other services supported by the plugin."
+    },
+    {
+      "type": "paragraph",
+      "id": "d9c4310de1d386fd",
+      "text": "TED keys are underscored words, like hans_rosling_and_the_magic_washing_machine"
+    },
+    {
+      "type": "code",
+      "id": "d15f3ec4e8d1fc70",
+      "text": "http://www.ted.com/talks/hans_rosling_and_the_magic_washing_machine"
+    },
+    {
+      "type": "code",
+      "id": "d1c1d11ea8e6f260",
+      "text": "<iframe src=\"https://embed-ssl.ted.com/talks/hans_rosling_and_the_magic_washing_machine.html\" width=\"560\" height=\"315\" frameborder=\"0\" scrolling=\"no\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>"
+    },
+    {
+      "type": "paragraph",
+      "id": "1e26bf9c1363fd03",
+      "text": "This is an embedded video from TED. Double-click the caption to see the plugin markup."
+    },
+    {
+      "type": "video",
+      "id": "a64edb5c4c6d9d73",
+      "text": "TED hans_rosling_and_the_magic_washing_machine\nHans Rosling"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Key from a TED Talk",
+        "story": []
+      },
+      "date": 1416114707328
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d15f3ec4e8d1fc70"
+      },
+      "id": "d15f3ec4e8d1fc70",
+      "type": "add",
+      "date": 1416115259465
+    },
+    {
+      "type": "edit",
+      "id": "d15f3ec4e8d1fc70",
+      "item": {
+        "type": "code",
+        "id": "d15f3ec4e8d1fc70",
+        "text": "http://www.ted.com/talks/hans_rosling_and_the_magic_washing_machine"
+      },
+      "date": 1416115265257
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "37c161aed68a076d"
+      },
+      "id": "37c161aed68a076d",
+      "type": "add",
+      "after": "d15f3ec4e8d1fc70",
+      "date": 1416115291950
+    },
+    {
+      "type": "edit",
+      "id": "37c161aed68a076d",
+      "item": {
+        "type": "paragraph",
+        "id": "37c161aed68a076d",
+        "text": "We explain how to recognize media keys for this service. Read [[About Video Plugin]] to understand media keys and the other services supported by the plugin."
+      },
+      "date": 1416115296131
+    },
+    {
+      "type": "move",
+      "order": [
+        "37c161aed68a076d",
+        "d15f3ec4e8d1fc70"
+      ],
+      "id": "37c161aed68a076d",
+      "date": 1416115298818
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "d9c4310de1d386fd",
+        "text": ""
+      },
+      "id": "d9c4310de1d386fd",
+      "type": "add",
+      "after": "37c161aed68a076d",
+      "date": 1416115322273
+    },
+    {
+      "type": "edit",
+      "id": "d9c4310de1d386fd",
+      "item": {
+        "type": "paragraph",
+        "id": "d9c4310de1d386fd",
+        "text": "TED keys are hyphenated words, like TEDxPortland-Ward-Cunningham"
+      },
+      "date": 1416115331838
+    },
+    {
+      "type": "edit",
+      "id": "d9c4310de1d386fd",
+      "item": {
+        "type": "paragraph",
+        "id": "d9c4310de1d386fd",
+        "text": "TED keys are underscored words, like hans_rosling_and_the_magic_washing_machine"
+      },
+      "date": 1416115385337
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d1c1d11ea8e6f260"
+      },
+      "id": "d1c1d11ea8e6f260",
+      "type": "add",
+      "after": "d15f3ec4e8d1fc70",
+      "date": 1416115408933
+    },
+    {
+      "type": "edit",
+      "id": "d1c1d11ea8e6f260",
+      "item": {
+        "type": "code",
+        "id": "d1c1d11ea8e6f260",
+        "text": "<iframe src=\"https://embed-ssl.ted.com/talks/hans_rosling_and_the_magic_washing_machine.html\" width=\"560\" height=\"315\" frameborder=\"0\" scrolling=\"no\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>"
+      },
+      "date": 1416115419284
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "1e26bf9c1363fd03"
+      },
+      "id": "1e26bf9c1363fd03",
+      "type": "add",
+      "after": "d1c1d11ea8e6f260",
+      "date": 1416115489893
+    },
+    {
+      "type": "edit",
+      "id": "1e26bf9c1363fd03",
+      "item": {
+        "type": "paragraph",
+        "id": "1e26bf9c1363fd03",
+        "text": "This is an embedded video from TED. Double-click the caption to see the plugin markup."
+      },
+      "date": 1416115499761
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "5c79599a772e80fb"
+      },
+      "id": "5c79599a772e80fb",
+      "type": "add",
+      "after": "1e26bf9c1363fd03",
+      "date": 1416115515526
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "cc6baa18c1ddd883",
+        "text": ""
+      },
+      "id": "cc6baa18c1ddd883",
+      "type": "add",
+      "after": "5c79599a772e80fb",
+      "date": 1416115524932
+    },
+    {
+      "type": "remove",
+      "id": "cc6baa18c1ddd883",
+      "date": 1416115529052
+    },
+    {
+      "type": "remove",
+      "id": "5c79599a772e80fb",
+      "date": 1416115538137
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a64edb5c4c6d9d73"
+      },
+      "id": "a64edb5c4c6d9d73",
+      "type": "add",
+      "after": "1e26bf9c1363fd03",
+      "date": 1416115540481
+    },
+    {
+      "type": "edit",
+      "id": "a64edb5c4c6d9d73",
+      "item": {
+        "type": "video",
+        "id": "a64edb5c4c6d9d73",
+        "text": "TED hans_rosling_and_the_magic_washing_machine\nHans Rosling"
+      },
+      "date": 1416115550151
+    },
+    {
+      "type": "edit",
+      "id": "d15f3ec4e8d1fc70",
+      "item": {
+        "type": "code",
+        "id": "d15f3ec4e8d1fc70",
+        "text": "http://www.ted.com/talks/hans_rosling_and_the_\nmagic_washing_machine"
+      },
+      "date": 1416116900333
+    },
+    {
+      "type": "edit",
+      "id": "d15f3ec4e8d1fc70",
+      "item": {
+        "type": "code",
+        "id": "d15f3ec4e8d1fc70",
+        "text": "http://www.ted.com/talks/hans_rosling_and_the_magic_washing_machine"
+      },
+      "date": 1416116908935
+    }
+  ]
+}
