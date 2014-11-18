@@ -1,0 +1,160 @@
+{
+  "title": "Key from Vimeo",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "86fb42c7e8a63e91",
+      "text": "We explain how to recognize media keys for this service. Read [[About Video Plugin]] to understand media keys and the other services supported by the plugin."
+    },
+    {
+      "type": "paragraph",
+      "id": "8595e1e06ca0aacc",
+      "text": "Vimeo keys are numbers, like 30340726"
+    },
+    {
+      "type": "code",
+      "id": "290c76f66e3e9c3b",
+      "text": "http://vimeo.com/30340726"
+    },
+    {
+      "type": "code",
+      "id": "dd0ce1f995eb7100",
+      "text": "<iframe src=\"//player.vimeo.com/video/30340726?title=0&amp;byline=0&amp;portrait=0\" width=\"420\" height=\"263\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    },
+    {
+      "type": "paragraph",
+      "id": "a9f644e7f6607f1d",
+      "text": "This is an embedded video from Vimeo. Double-click the caption to see the plugin markup.\n"
+    },
+    {
+      "type": "video",
+      "id": "ded229e95b858696",
+      "text": "VIMEO 30340726\nWhere is wiki from? Where might it go to? We asked and answered these questions in a 2005 Wikimania keynote. Our answers hold up. Some guide our work today."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Key from Vimeo",
+        "story": []
+      },
+      "date": 1416110689237
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "86fb42c7e8a63e91"
+      },
+      "id": "86fb42c7e8a63e91",
+      "type": "add",
+      "date": 1416110698828
+    },
+    {
+      "type": "edit",
+      "id": "86fb42c7e8a63e91",
+      "item": {
+        "type": "paragraph",
+        "id": "86fb42c7e8a63e91",
+        "text": "We explain how to recognize media keys for this service. Read [[About Video Plugin]] to understand media keys and the other services supported by the plugin."
+      },
+      "date": 1416110702061
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "8595e1e06ca0aacc",
+        "text": "Vimeo keys are numbers, like 30340726"
+      },
+      "after": "86fb42c7e8a63e91",
+      "id": "8595e1e06ca0aacc",
+      "date": 1416110717810
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "code",
+        "id": "290c76f66e3e9c3b",
+        "text": "http://vimeo.com/30340726"
+      },
+      "after": "8595e1e06ca0aacc",
+      "id": "290c76f66e3e9c3b",
+      "date": 1416110721534
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "code",
+        "id": "dd0ce1f995eb7100",
+        "text": "<iframe src=\"//player.vimeo.com/video/30340726?title=0&amp;byline=0&amp;portrait=0\" width=\"420\" height=\"263\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+      },
+      "after": "290c76f66e3e9c3b",
+      "id": "dd0ce1f995eb7100",
+      "date": 1416110725001
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ded229e95b858696"
+      },
+      "id": "ded229e95b858696",
+      "type": "add",
+      "after": "dd0ce1f995eb7100",
+      "date": 1416111844080
+    },
+    {
+      "type": "edit",
+      "id": "ded229e95b858696",
+      "item": {
+        "type": "video",
+        "id": "ded229e95b858696",
+        "text": "VIMEO 30340726"
+      },
+      "date": 1416111861962
+    },
+    {
+      "type": "edit",
+      "id": "ded229e95b858696",
+      "item": {
+        "type": "video",
+        "id": "ded229e95b858696",
+        "text": "VIMEO 30340726\nWhere is wiki from? Where might it go to? We asked and answered these questions in a 2005 Wikimania keynote. Our answers hold up. Some guide our work today."
+      },
+      "date": 1416111896399
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a9f644e7f6607f1d"
+      },
+      "id": "a9f644e7f6607f1d",
+      "type": "add",
+      "after": "ded229e95b858696",
+      "date": 1416112175049
+    },
+    {
+      "type": "move",
+      "order": [
+        "86fb42c7e8a63e91",
+        "8595e1e06ca0aacc",
+        "290c76f66e3e9c3b",
+        "dd0ce1f995eb7100",
+        "a9f644e7f6607f1d",
+        "ded229e95b858696"
+      ],
+      "id": "a9f644e7f6607f1d",
+      "date": 1416112178007
+    },
+    {
+      "type": "edit",
+      "id": "a9f644e7f6607f1d",
+      "item": {
+        "type": "paragraph",
+        "id": "a9f644e7f6607f1d",
+        "text": "This is an embedded video from Vimeo. Double-click the caption to see the plugin markup.\n"
+      },
+      "date": 1416112189164
+    }
+  ]
+}

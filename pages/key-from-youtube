@@ -1,0 +1,187 @@
+{
+  "title": "Key from YouTube",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "d7891e6fa0e5c825",
+      "text": "We explain how to recognize media keys for this service. Read [[About Video Plugin]] to understand media keys and the other services supported by the plugin."
+    },
+    {
+      "type": "paragraph",
+      "id": "0965aefa76be52c8",
+      "text": "YouTube keys are letters and digits, like ziMLDgsefi0"
+    },
+    {
+      "type": "code",
+      "id": "fba1060fa13d3f4d",
+      "text": "http://youtu.be/ziMLDgsefi0"
+    },
+    {
+      "type": "code",
+      "id": "65c9b3bdb77605cc",
+      "text": "http://www.youtube.com/watch?v=ziMLDgsefi0"
+    },
+    {
+      "type": "code",
+      "id": "a252d2b4f7c83524",
+      "text": "<iframe width=\"420\" height=\"315\" src=\"//www.youtube.com/embed/ziMLDgsefi0?rel=0\" frameborder=\"0\" allowfullscreen></iframe>"
+    },
+    {
+      "type": "paragraph",
+      "id": "8ad93078e4ab67fd",
+      "text": "This is an embedded video from YouTube. Double-click the caption to see the plugin markup."
+    },
+    {
+      "type": "video",
+      "id": "c44e1af1c4a65bfc",
+      "text": "YOUTUBE ziMLDgsefi0\nWe show how to drag and drop pages into one browser tab before making them part of one wiki."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Key from YouTube",
+        "story": []
+      },
+      "date": 1416110310863
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d7891e6fa0e5c825"
+      },
+      "id": "d7891e6fa0e5c825",
+      "type": "add",
+      "date": 1416110350377
+    },
+    {
+      "type": "edit",
+      "id": "d7891e6fa0e5c825",
+      "item": {
+        "type": "paragraph",
+        "id": "d7891e6fa0e5c825",
+        "text": "We explain how to recognize media keys for this service. Read [[About Video Plugin]] to understand media keys and the other services supported by the plugin."
+      },
+      "date": 1416110621419
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "0965aefa76be52c8",
+        "text": "YouTube keys are letters and digits, like ziMLDgsefi0"
+      },
+      "after": "d7891e6fa0e5c825",
+      "id": "0965aefa76be52c8",
+      "date": 1416110638870
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "code",
+        "id": "fba1060fa13d3f4d",
+        "text": "http://youtu.be/ziMLDgsefi0"
+      },
+      "after": "0965aefa76be52c8",
+      "id": "fba1060fa13d3f4d",
+      "date": 1416110643442
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "code",
+        "id": "65c9b3bdb77605cc",
+        "text": "http://www.youtube.com/watch?v=ziMLDgsefi0"
+      },
+      "after": "fba1060fa13d3f4d",
+      "id": "65c9b3bdb77605cc",
+      "date": 1416110648326
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "code",
+        "id": "a252d2b4f7c83524",
+        "text": "<iframe width=\"420\" height=\"315\" src=\"//www.youtube.com/embed/ziMLDgsefi0?rel=0\" frameborder=\"0\" allowfullscreen></iframe>"
+      },
+      "after": "65c9b3bdb77605cc",
+      "id": "a252d2b4f7c83524",
+      "date": 1416110653356
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c44e1af1c4a65bfc"
+      },
+      "id": "c44e1af1c4a65bfc",
+      "type": "add",
+      "after": "a252d2b4f7c83524",
+      "date": 1416111938025
+    },
+    {
+      "type": "edit",
+      "id": "c44e1af1c4a65bfc",
+      "item": {
+        "type": "video",
+        "id": "c44e1af1c4a65bfc",
+        "text": "YOUTUBE ziMLDgsefi0\nlkjsf"
+      },
+      "date": 1416111948004
+    },
+    {
+      "type": "edit",
+      "id": "c44e1af1c4a65bfc",
+      "item": {
+        "type": "video",
+        "id": "c44e1af1c4a65bfc",
+        "text": "YOUTUBE ziMLDgsefi0\nWe show how to drag and drop pages into one browser tab before making them part of one wiki."
+      },
+      "date": 1416111989458
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8ad93078e4ab67fd"
+      },
+      "id": "8ad93078e4ab67fd",
+      "type": "add",
+      "after": "c44e1af1c4a65bfc",
+      "date": 1416112013037
+    },
+    {
+      "type": "move",
+      "order": [
+        "d7891e6fa0e5c825",
+        "0965aefa76be52c8",
+        "fba1060fa13d3f4d",
+        "65c9b3bdb77605cc",
+        "a252d2b4f7c83524",
+        "8ad93078e4ab67fd",
+        "c44e1af1c4a65bfc"
+      ],
+      "id": "8ad93078e4ab67fd",
+      "date": 1416112017406
+    },
+    {
+      "type": "edit",
+      "id": "8ad93078e4ab67fd",
+      "item": {
+        "type": "paragraph",
+        "id": "8ad93078e4ab67fd",
+        "text": "This is an embedded video from YouTube. Double-click the caption to see the markup."
+      },
+      "date": 1416112124208
+    },
+    {
+      "type": "edit",
+      "id": "8ad93078e4ab67fd",
+      "item": {
+        "type": "paragraph",
+        "id": "8ad93078e4ab67fd",
+        "text": "This is an embedded video from YouTube. Double-click the caption to see the plugin markup."
+      },
+      "date": 1416112134635
+    }
+  ]
+}

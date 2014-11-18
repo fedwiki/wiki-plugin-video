@@ -4,7 +4,7 @@
     {
       "type": "paragraph",
       "id": "d618f0df06ca75db",
-      "text": "The Video Plugin embeds a video player on a wiki page. The video itself must be uploaded to YouTube or Vimeo and the key from that service used to configure the plugin. Drag and drop makes this easy in some cases."
+      "text": "The Video Plugin embeds a video player on a wiki page. The video itself must be uploaded to a supported video site and the key from that service used to configure the plugin. Drag and drop makes this easy in some cases."
     },
     {
       "type": "paragraph",
@@ -24,7 +24,7 @@
     {
       "type": "paragraph",
       "id": "b262d0358a094b85",
-      "text": "You can drag and drop a youtube or vimeo video to a factory and have it turn into an embedded video. Drag the location item (not the tab) for either player. Or drag youtube/vimeo video thumbnails from the google search result pages."
+      "text": "You can drag and drop a video to a factory and have it turn into an embedded video. Drag the location item (not the tab) for either player. Or drag the video thumbnails from the google search result pages."
     },
     {
       "type": "paragraph",
@@ -39,47 +39,7 @@
     {
       "type": "paragraph",
       "id": "0fe016e2e2cec946",
-      "text": "The plugin's text contains the caption and commands specifying player details especially the identification key used to select the video to be played. This can be edited manually."
-    },
-    {
-      "type": "paragraph",
-      "id": "0bd440c25f153ed9",
-      "text": "Find the key for your video in its url or embed code."
-    },
-    {
-      "type": "paragraph",
-      "id": "0965aefa76be52c8",
-      "text": "YouTube keys are letters and digits, like ziMLDgsefi0"
-    },
-    {
-      "type": "code",
-      "id": "fba1060fa13d3f4d",
-      "text": "http://youtu.be/ziMLDgsefi0"
-    },
-    {
-      "type": "code",
-      "id": "65c9b3bdb77605cc",
-      "text": "http://www.youtube.com/watch?v=ziMLDgsefi0"
-    },
-    {
-      "type": "code",
-      "id": "a252d2b4f7c83524",
-      "text": "<iframe width=\"420\" height=\"315\" src=\"//www.youtube.com/embed/ziMLDgsefi0?rel=0\" frameborder=\"0\" allowfullscreen></iframe>"
-    },
-    {
-      "type": "paragraph",
-      "id": "8595e1e06ca0aacc",
-      "text": "Vimeo keys are numbers, like 30340726"
-    },
-    {
-      "type": "code",
-      "id": "290c76f66e3e9c3b",
-      "text": "http://vimeo.com/30340726"
-    },
-    {
-      "type": "code",
-      "id": "dd0ce1f995eb7100",
-      "text": "<iframe src=\"//player.vimeo.com/video/30340726?title=0&amp;byline=0&amp;portrait=0\" width=\"420\" height=\"263\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+      "text": "The plugin's text contains the caption and commands specifying player details especially the identification key used to select the video to be played. This can be edited manually. Find the key for your video in its url or embed code."
     },
     {
       "type": "paragraph",
@@ -94,12 +54,27 @@
     {
       "type": "paragraph",
       "id": "31ed01021009e01c",
-      "text": "Say <b>YOUTUBE</b> and a key from YouTube."
+      "text": "Say <b>YOUTUBE</b> and a [[Key from YouTube]]."
     },
     {
       "type": "paragraph",
       "id": "2b9d57899e235839",
-      "text": "Say <b>VIMEO</b> and a key from Vimeo."
+      "text": "Say <b>VIMEO</b> and a [[Key from Vimeo]]."
+    },
+    {
+      "type": "paragraph",
+      "id": "b482e0a6e80d235c",
+      "text": "Say <b>ARCHIVE</b> and a [[Key from Internet Archive]]."
+    },
+    {
+      "type": "paragraph",
+      "id": "079161c9324efd8f",
+      "text": "Say <b>TED</b> and a [[Key from a TED Talk]]."
+    },
+    {
+      "type": "paragraph",
+      "id": "6c1ced54ed7e15b9",
+      "text": "Say <b>TEDX</b> and a [[Key from a TEDx Talk]]."
     },
     {
       "type": "paragraph",
@@ -827,6 +802,189 @@
         "text": "Double-click the caption to enter a key or change the caption."
       },
       "date": 1404579288180
+    },
+    {
+      "type": "edit",
+      "id": "d618f0df06ca75db",
+      "item": {
+        "type": "paragraph",
+        "id": "d618f0df06ca75db",
+        "text": "The Video Plugin embeds a video player on a wiki page. The video itself must be uploaded to YouTube, Vimeo or the Internet Archive and the key from that service used to configure the plugin. Drag and drop makes this easy in some cases."
+      },
+      "date": 1416109935792
+    },
+    {
+      "type": "edit",
+      "id": "b262d0358a094b85",
+      "item": {
+        "type": "paragraph",
+        "id": "b262d0358a094b85",
+        "text": "You can drag and drop a video to a factory and have it turn into an embedded video. Drag the location item (not the tab) for either player. Or drag the video thumbnails from the google search result pages."
+      },
+      "date": 1416110002672
+    },
+    {
+      "type": "edit",
+      "id": "31ed01021009e01c",
+      "item": {
+        "type": "paragraph",
+        "id": "31ed01021009e01c",
+        "text": "Say <b>YOUTUBE</b> and a [[Key from YouTube]]."
+      },
+      "date": 1416110194787
+    },
+    {
+      "type": "edit",
+      "id": "2b9d57899e235839",
+      "item": {
+        "type": "paragraph",
+        "id": "2b9d57899e235839",
+        "text": "Say <b>VIMEO</b> and a [[Key from Vimeo]]."
+      },
+      "date": 1416110209380
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "b482e0a6e80d235c",
+        "text": ""
+      },
+      "id": "b482e0a6e80d235c",
+      "type": "add",
+      "after": "2b9d57899e235839",
+      "date": 1416110214729
+    },
+    {
+      "type": "edit",
+      "id": "b482e0a6e80d235c",
+      "item": {
+        "type": "paragraph",
+        "id": "b482e0a6e80d235c",
+        "text": "Say <b>ARCHIVE</b> and a [[Key from Internet Archive]]."
+      },
+      "date": 1416110240696
+    },
+    {
+      "type": "remove",
+      "id": "0965aefa76be52c8",
+      "date": 1416110638868
+    },
+    {
+      "type": "remove",
+      "id": "fba1060fa13d3f4d",
+      "date": 1416110643438
+    },
+    {
+      "type": "remove",
+      "id": "65c9b3bdb77605cc",
+      "date": 1416110648323
+    },
+    {
+      "type": "remove",
+      "id": "a252d2b4f7c83524",
+      "date": 1416110653353
+    },
+    {
+      "type": "remove",
+      "id": "8595e1e06ca0aacc",
+      "date": 1416110717808
+    },
+    {
+      "type": "remove",
+      "id": "290c76f66e3e9c3b",
+      "date": 1416110721531
+    },
+    {
+      "type": "remove",
+      "id": "dd0ce1f995eb7100",
+      "date": 1416110724999
+    },
+    {
+      "type": "remove",
+      "id": "0bd440c25f153ed9",
+      "date": 1416110754571
+    },
+    {
+      "type": "edit",
+      "id": "0fe016e2e2cec946",
+      "item": {
+        "type": "paragraph",
+        "id": "0fe016e2e2cec946",
+        "text": "The plugin's text contains the caption and commands specifying player details especially the identification key used to select the video to be played. This can be edited manually. Find the key for your video in its url or embed code."
+      },
+      "date": 1416110756852
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "079161c9324efd8f",
+        "text": ""
+      },
+      "id": "079161c9324efd8f",
+      "type": "add",
+      "after": "b482e0a6e80d235c",
+      "date": 1416113831801
+    },
+    {
+      "type": "edit",
+      "id": "079161c9324efd8f",
+      "item": {
+        "type": "paragraph",
+        "id": "079161c9324efd8f",
+        "text": "Say TED and a Key from Ted"
+      },
+      "date": 1416113857396
+    },
+    {
+      "type": "edit",
+      "id": "079161c9324efd8f",
+      "item": {
+        "type": "paragraph",
+        "id": "079161c9324efd8f",
+        "text": "Say TED and a [[Key from a TED Talk]]."
+      },
+      "date": 1416113899787
+    },
+    {
+      "type": "edit",
+      "id": "079161c9324efd8f",
+      "item": {
+        "type": "paragraph",
+        "id": "079161c9324efd8f",
+        "text": "Say <b>TED</b> and a [[Key from a TED Talk]]."
+      },
+      "date": 1416113913015
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "6c1ced54ed7e15b9",
+        "text": ""
+      },
+      "id": "6c1ced54ed7e15b9",
+      "type": "add",
+      "after": "079161c9324efd8f",
+      "date": 1416114081262
+    },
+    {
+      "type": "edit",
+      "id": "6c1ced54ed7e15b9",
+      "item": {
+        "type": "paragraph",
+        "id": "6c1ced54ed7e15b9",
+        "text": "Say <b>TEDX</b> and a [[Key from a TEDx Talk]]."
+      },
+      "date": 1416114109486
+    },
+    {
+      "type": "edit",
+      "id": "d618f0df06ca75db",
+      "item": {
+        "type": "paragraph",
+        "id": "d618f0df06ca75db",
+        "text": "The Video Plugin embeds a video player on a wiki page. The video itself must be uploaded to a supported video site and the key from that service used to configure the plugin. Drag and drop makes this easy in some cases."
+      },
+      "date": 1416116782161
     }
   ]
 }
