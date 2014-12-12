@@ -17,9 +17,9 @@
       "text": "YOUTUBE CI7T2iuGjjc\nMerritt Raitt's race to work is narrated by Tour de France TV commentators Phil Liggett and Paul Sherwin."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "23467e76c7406b75",
-      "text": "<h3> Factory"
+      "text": "<h3>Factory</h3>"
     },
     {
       "type": "paragraph",
@@ -32,9 +32,9 @@
       "text": "Double-click to edit the caption. The caption retains a little bit of wiki's click and drag behavior while the embedded video player 'owns' the rest of the item."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "766ee886eec15a62",
-      "text": "<h3> Keys"
+      "text": "<h3>Keys</h3>"
     },
     {
       "type": "paragraph",
@@ -42,9 +42,9 @@
       "text": "The plugin's text contains the caption and commands specifying player details especially the identification key used to select the video to be played. This can be edited manually. Find the key for your video in its url or embed code."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "df4d9685b5f1a93c",
-      "text": "<h3> Commands"
+      "text": "<h3>Commands</h3>"
     },
     {
       "type": "paragraph",
@@ -52,27 +52,27 @@
       "text": "Double-click the caption to enter a key or change the caption."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "31ed01021009e01c",
       "text": "Say <b>YOUTUBE</b> and a [[Key from YouTube]]."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "2b9d57899e235839",
       "text": "Say <b>VIMEO</b> and a [[Key from Vimeo]]."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "b482e0a6e80d235c",
       "text": "Say <b>ARCHIVE</b> and a [[Key from Internet Archive]]."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "079161c9324efd8f",
       "text": "Say <b>TED</b> and a [[Key from a TED Talk]]."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "6c1ced54ed7e15b9",
       "text": "Say <b>TEDX</b> and a [[Key from a TEDx Talk]]."
     },
@@ -985,6 +985,127 @@
         "text": "The Video Plugin embeds a video player on a wiki page. The video itself must be uploaded to a supported video site and the key from that service used to configure the plugin. Drag and drop makes this easy in some cases."
       },
       "date": 1416116782161
+    },
+    {
+      "type": "edit",
+      "id": "23467e76c7406b75",
+      "item": {
+        "type": "html",
+        "id": "23467e76c7406b75",
+        "text": "<h3> Factory"
+      },
+      "date": 1418372766490
+    },
+    {
+      "type": "edit",
+      "id": "23467e76c7406b75",
+      "item": {
+        "type": "html",
+        "id": "23467e76c7406b75",
+        "text": "<h3>Factory</h3>"
+      },
+      "date": 1418372776522
+    },
+    {
+      "type": "edit",
+      "id": "766ee886eec15a62",
+      "item": {
+        "type": "paragraph",
+        "id": "766ee886eec15a62",
+        "text": "<h3>Keys</h3>"
+      },
+      "date": 1418372786566
+    },
+    {
+      "type": "edit",
+      "id": "766ee886eec15a62",
+      "item": {
+        "type": "html",
+        "id": "766ee886eec15a62",
+        "text": "<h3>Keys</h3>"
+      },
+      "date": 1418372788863
+    },
+    {
+      "type": "edit",
+      "id": "766ee886eec15a62",
+      "item": {
+        "type": "html",
+        "id": "766ee886eec15a62",
+        "text": "<h3>Keys</h3>"
+      },
+      "date": 1418372788866
+    },
+    {
+      "type": "edit",
+      "id": "31ed01021009e01c",
+      "item": {
+        "type": "html",
+        "id": "31ed01021009e01c",
+        "text": "Say <b>YOUTUBE</b> and a [[Key from YouTube]]."
+      },
+      "date": 1418372793871
+    },
+    {
+      "type": "edit",
+      "id": "2b9d57899e235839",
+      "item": {
+        "type": "html",
+        "id": "2b9d57899e235839",
+        "text": "Say <b>VIMEO</b> and a [[Key from Vimeo]]."
+      },
+      "date": 1418372795759
+    },
+    {
+      "type": "edit",
+      "id": "b482e0a6e80d235c",
+      "item": {
+        "type": "html",
+        "id": "b482e0a6e80d235c",
+        "text": "Say <b>ARCHIVE</b> and a [[Key from Internet Archive]]."
+      },
+      "date": 1418372796823
+    },
+    {
+      "type": "edit",
+      "id": "079161c9324efd8f",
+      "item": {
+        "type": "html",
+        "id": "079161c9324efd8f",
+        "text": "Say <b>TED</b> and a [[Key from a TED Talk]]."
+      },
+      "date": 1418372799183
+    },
+    {
+      "type": "edit",
+      "id": "6c1ced54ed7e15b9",
+      "item": {
+        "type": "html",
+        "id": "6c1ced54ed7e15b9",
+        "text": "Say <b>TEDX</b> and a [[Key from a TEDx Talk]]."
+      },
+      "date": 1418372800359
+    },
+    {
+      "type": "edit",
+      "id": "df4d9685b5f1a93c",
+      "item": {
+        "type": "html",
+        "id": "df4d9685b5f1a93c",
+        "text": "<h3> Commands"
+      },
+      "date": 1418372801935
+    },
+    {
+      "type": "edit",
+      "id": "df4d9685b5f1a93c",
+      "item": {
+        "type": "html",
+        "id": "df4d9685b5f1a93c",
+        "text": "<h3>Commands</h3>"
+      },
+      "date": 1418372809997
     }
-  ]
+  ],
+  "plugin": "video"
 }
