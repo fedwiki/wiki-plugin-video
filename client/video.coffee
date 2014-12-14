@@ -1,3 +1,6 @@
+load = (callback) ->
+  if(!$("link[href='plugins/video/video.css']").length)
+    $('<link href="/plugins/video/video.css" rel="stylesheet" type="text/css">').appendTo("head")
 
 parse = (text='') ->
   result = {}
@@ -68,8 +71,7 @@ emit = ($item, item) ->
   """
 
 bind = ($item, item) ->
-  $item.dblclick -> wiki.textEditor $item, item
+  load -> $item.dblclick -> wiki.textEditor $item, item
 
 window.plugins.video = {emit, bind} if window?
 module.exports = {parse, embed} if module?
-
