@@ -63,7 +63,7 @@ emit = ($item, item) ->
   $item.append """
     #{embed result}
     <br>
-    <i>#{result.caption || "(no caption)"}</i>
+    <i>#{wiki.resolveLinks(result.caption || "(no caption)")}</i>
   """
 
 bind = ($item, item) ->
