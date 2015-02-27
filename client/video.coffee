@@ -1,3 +1,10 @@
+###
+ * Federated Wiki : Video Plugin
+ *
+ * Licensed under the MIT license.
+ * https://github.com/fedwiki/wiki-plugin-video/blob/master/LICENSE.txt
+###
+
 parse = (text='') ->
   result = {}
   for line in text.split /\r\n?|\n/
