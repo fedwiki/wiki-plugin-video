@@ -8,7 +8,7 @@
 parse = (text='') ->
   result = {}
   for line in text.split /\r\n?|\n/
-    if args = line.match /^\s*([A-Z]+)\s+([\w\.\-]+)\s*$/
+    if args = line.match /^\s*([A-Z0-9]+)\s+([\w\.\-\/+0-9]+)\s*$/
       result.player = args[1]
       result.key = args[2]
     else
@@ -60,6 +60,14 @@ embed = ({player, key}) ->
           src="http://tedxtalks.ted.com/video/#{key}/player?layout=&amp;read_more=1"
           width="420" height="300"
           frameborder="0" scrolling="no">
+        </iframe>
+      """
+    when 'CHANNEL9'
+      """
+        <iframe
+          src="//channel9.msdn.com/#{key}/player"
+          width="420" height="300"
+          allowFullScreen frameBorder="0">
         </iframe>
       """
     else
