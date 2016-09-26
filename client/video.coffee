@@ -55,7 +55,7 @@ embed = ({player, options, key}) ->
       """
         <iframe
           src="https://archive.org/embed/#{key}"
-          width="420" height="300"
+          width="420" height="315"
           frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"
           allowfullscreen>
         </iframe>
