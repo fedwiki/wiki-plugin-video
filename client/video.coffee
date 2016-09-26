@@ -80,8 +80,8 @@ embed = ({player, options, key}) ->
     when 'CHANNEL9'
       """
         <iframe
-          src="//channel9.msdn.com/#{key}/player"
-          width="420" height="300"
+          src="https://channel9.msdn.com/#{key}/player"
+          width="420" height="236"
           allowFullScreen frameBorder="0">
         </iframe>
       """

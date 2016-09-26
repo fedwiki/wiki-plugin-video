@@ -72,7 +72,7 @@ describe 'video plugin', ->
       expect(embed).to.match ///
         <iframe
         [^>]*
-        src="//channel9.msdn.com/12345/player"
+        src="https://channel9.msdn.com/12345/player"
         ///
 
     it 'renders fallback text when player is not recognized', ->
