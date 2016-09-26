@@ -20,11 +20,19 @@ describe 'video plugin', ->
   describe 'embedding', ->
 
     it 'renders Youtube video', ->
-      embed = video.embed({ player: 'YOUTUBE', key: '12345'  })
+      embed = video.embed({ player: 'YOUTUBE', options: '', key: '12345'  })
       expect(embed).to.match ///
         <iframe
         [^>]*
         src="https://www\.youtube-nocookie\.com/embed/12345\?rel=0"
+        ///
+
+    it 'renders Youtube playlist', ->
+      embed = video.embed({ player: 'YOUTUBE', options: 'PLAYLIST', key: '12345' })
+      expect(embed).to.match ///
+        <iframe
+        [^>]*
+        src="https://www\.youtube-nocookie\.com/embed/videoseries\?list=12345"
         ///
 
     it 'renders Vimeo video', ->

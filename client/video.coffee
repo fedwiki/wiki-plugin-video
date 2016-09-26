@@ -10,23 +10,39 @@ parse = (text='') ->
   for line in text.split /\r\n?|\n/
     if args = line.match /^\s*([A-Z0-9]+)\s+([\w\.\-\/+0-9]+)\s*$/
       result.player = args[1]
+      result.options = ''
       result.key = args[2]
+    else if args = line.match /^\s*([A-Z0-9]+)\s+([A-Za-z\,]+)\s+([\w\.\-\/+0-9]+)\s*$/
+      result.player = args[1]
+      result.options = args[2]
+      result.key = args[3]
+      console.log 'video with options:', result
     else
       result.caption ||= ' '
       result.caption += line + ' '
   result
 
-embed = ({player, key}) ->
+embed = ({player, options, key}) ->
   switch player
     when 'YOUTUBE'
-      """
-        <iframe
-          width="420" height="236"
-          src="https://www.youtube-nocookie.com/embed/#{key}?rel=0"
-          frameborder="0"
-          allowfullscreen>
-        </iframe>
-      """
+      if options.toUpperCase() is "PLAYLIST"
+        """
+          <iframe
+            width="420" height="236"
+            src="https://www.youtube-nocookie.com/embed/videoseries?list=#{key}"
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
+        """
+      else
+        """
+          <iframe
+            width="420" height="236"
+            src="https://www.youtube-nocookie.com/embed/#{key}?rel=0"
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
+        """
     when 'VIMEO'
       """
         <iframe
