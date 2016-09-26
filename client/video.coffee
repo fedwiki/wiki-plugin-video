@@ -21,8 +21,8 @@ embed = ({player, key}) ->
     when 'YOUTUBE'
       """
         <iframe
-          width="420" height="315"
-          src="//www.youtube.com/embed/#{key}?rel=0"
+          width="420" height="236"
+          src="https://www.youtube-nocookie.com/embed/#{key}?rel=0"
           frameborder="0"
           allowfullscreen>
         </iframe>

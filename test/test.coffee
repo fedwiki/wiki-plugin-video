@@ -24,7 +24,7 @@ describe 'video plugin', ->
       expect(embed).to.match ///
         <iframe
         [^>]*
-        src="//www\.youtube\.com/embed/12345\?rel=0"
+        src="https://www\.youtube-nocookie\.com/embed/12345\?rel=0"
         ///
 
     it 'renders Vimeo video', ->
