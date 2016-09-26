@@ -16,7 +16,6 @@ parse = (text='') ->
       result.player = args[1]
       result.options = args[2]
       result.key = args[3]
-      console.log 'video with options:', result
     else
       result.caption ||= ' '
       result.caption += line + ' '
@@ -46,8 +45,8 @@ embed = ({player, options, key}) ->
     when 'VIMEO'
       """
         <iframe
-          src="//player.vimeo.com/video/#{key}?title=0&amp;byline=0&amp;portrait=0"
-          width="420" height="263"
+          src="https://player.vimeo.com/video/#{key}?title=0&amp;byline=0&amp;portrait=0"
+          width="420" height="236"
           frameborder="0"
           allowfullscreen>
         </iframe>

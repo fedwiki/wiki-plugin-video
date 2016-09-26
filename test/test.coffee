@@ -40,7 +40,7 @@ describe 'video plugin', ->
       expect(embed).to.match ///
         <iframe
         [^>]*
-        src="//player.vimeo.com/video/12345\?title=0&amp;byline=0&amp;portrait=0"
+        src="https://player.vimeo.com/video/12345\?title=0&amp;byline=0&amp;portrait=0"
         ///
 
     it 'renders Archive video', ->
