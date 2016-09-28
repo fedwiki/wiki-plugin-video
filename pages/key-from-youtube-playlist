@@ -1,0 +1,207 @@
+{
+  "title": "Key from YouTube Playlist",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "d7891e6fa0e5c825",
+      "text": "We explain how to recognize media keys for this service. Read [[About Video Plugin]] to understand media keys and the other services supported by the plugin."
+    },
+    {
+      "type": "paragraph",
+      "id": "f20d12415cafd0a7",
+      "text": "YouTube playlist keys are letters digits underscore and dash, like PLRdZ44gFTfl3hobkAy5P-_51uIcn_h5oj"
+    },
+    {
+      "type": "code",
+      "id": "ba7075838fc9e2c8",
+      "text": "https://www.youtube.com/playlist?list=PLRdZ44gFTfl3hobkAy5P-_51uIcn_h5oj"
+    },
+    {
+      "type": "code",
+      "id": "2f35f90a05a5eae6",
+      "text": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/videoseries?list=PLRdZ44gFTfl3hobkAy5P-_51uIcn_h5oj\" frameborder=\"0\" allowfullscreen></iframe>"
+    },
+    {
+      "type": "paragraph",
+      "id": "2c4f44ee9e102c0a",
+      "text": "You will see an extra parameter that identifies the current video, if you are currently watching the playlist."
+    },
+    {
+      "type": "paragraph",
+      "id": "0508828ec422f56b",
+      "text": "For embedded videos you might see `www.youtube-nocookie.com` addresses, if the author has enabled \"privacy-enhanced mode.\" This mode is enabled in this video plugin."
+    },
+    {
+      "type": "paragraph",
+      "id": "9188c9fcf9c5d4df",
+      "text": "This is an embedded playlist from YouTube. Double-click the caption to see the plugin markup."
+    },
+    {
+      "type": "video",
+      "id": "3b2490c73de46735",
+      "text": "YOUTUBE PLAYLIST PLRdZ44gFTfl3hobkAy5P-_51uIcn_h5oj\nA sequence of simulations, by Mike Caulfield, to illustrate how ideas spread through a federation. This is the fifth part of a larger presentation, Federated Education: New Directions in Digital Collaboration. [http://hapgood.us/2014/11/06/federated-education-new-directions-in-digital-collaboration/ webpage]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Key from YouTube Playlist",
+        "story": []
+      },
+      "date": 1475073254889
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "d7891e6fa0e5c825",
+        "text": "We explain how to recognize media keys for this service. Read [[About Video Plugin]] to understand media keys and the other services supported by the plugin."
+      },
+      "id": "d7891e6fa0e5c825",
+      "date": 1475073469747
+    },
+    {
+      "type": "add",
+      "id": "f20d12415cafd0a7",
+      "item": {
+        "type": "paragraph",
+        "id": "f20d12415cafd0a7",
+        "text": "YouTube playlist keys are letters digits underscore and dash, like PLRdZ44gFTfl3hobkAy5P-_51uIcn_h5oj"
+      },
+      "after": "d7891e6fa0e5c825",
+      "date": 1475074746492
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ba7075838fc9e2c8"
+      },
+      "id": "ba7075838fc9e2c8",
+      "type": "add",
+      "after": "f20d12415cafd0a7",
+      "date": 1475074750600
+    },
+    {
+      "type": "edit",
+      "id": "ba7075838fc9e2c8",
+      "item": {
+        "type": "code",
+        "id": "ba7075838fc9e2c8",
+        "text": "https://www.youtube.com/playlist?list=PLRdZ44gFTfl3hobkAy5P-_51uIcn_h5oj"
+      },
+      "date": 1475074771666
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2f35f90a05a5eae6"
+      },
+      "id": "2f35f90a05a5eae6",
+      "type": "add",
+      "after": "ba7075838fc9e2c8",
+      "date": 1475074797542
+    },
+    {
+      "type": "edit",
+      "id": "2f35f90a05a5eae6",
+      "item": {
+        "type": "code",
+        "id": "2f35f90a05a5eae6",
+        "text": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/videoseries?list=PLRdZ44gFTfl3hobkAy5P-_51uIcn_h5oj\" frameborder=\"0\" allowfullscreen></iframe>"
+      },
+      "date": 1475074816441
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2c4f44ee9e102c0a"
+      },
+      "id": "2c4f44ee9e102c0a",
+      "type": "add",
+      "after": "2f35f90a05a5eae6",
+      "date": 1475074830994
+    },
+    {
+      "type": "edit",
+      "id": "2c4f44ee9e102c0a",
+      "item": {
+        "type": "paragraph",
+        "id": "2c4f44ee9e102c0a",
+        "text": "You will see an extra parameter that identifies the current video, if you are currently watching the playlist."
+      },
+      "date": 1475074964567
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9188c9fcf9c5d4df"
+      },
+      "id": "9188c9fcf9c5d4df",
+      "type": "add",
+      "after": "2c4f44ee9e102c0a",
+      "date": 1475075078223
+    },
+    {
+      "type": "add",
+      "id": "0508828ec422f56b",
+      "item": {
+        "type": "paragraph",
+        "id": "0508828ec422f56b",
+        "text": "For embedded videos you might see `www.youtube-nocookie.com` addresses, if the author has "
+      },
+      "after": "2c4f44ee9e102c0a",
+      "date": 1475075174330
+    },
+    {
+      "type": "edit",
+      "id": "0508828ec422f56b",
+      "item": {
+        "type": "paragraph",
+        "id": "0508828ec422f56b",
+        "text": "For embedded videos you might see `www.youtube-nocookie.com` addresses, if the author has enabled \"privacy-enhanced mode.\" If delays any "
+      },
+      "date": 1475075216730
+    },
+    {
+      "type": "edit",
+      "id": "0508828ec422f56b",
+      "item": {
+        "type": "paragraph",
+        "id": "0508828ec422f56b",
+        "text": "For embedded videos you might see `www.youtube-nocookie.com` addresses, if the author has enabled \"privacy-enhanced mode.\" This mode is enabled in this video plugin."
+      },
+      "date": 1475075289233
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3b2490c73de46735"
+      },
+      "id": "3b2490c73de46735",
+      "type": "add",
+      "after": "9188c9fcf9c5d4df",
+      "date": 1475076155567
+    },
+    {
+      "type": "edit",
+      "id": "9188c9fcf9c5d4df",
+      "item": {
+        "type": "paragraph",
+        "id": "9188c9fcf9c5d4df",
+        "text": "This is an embedded playlist from YouTube. Double-click the caption to see the plugin markup."
+      },
+      "date": 1475076190085
+    },
+    {
+      "type": "edit",
+      "id": "3b2490c73de46735",
+      "item": {
+        "type": "video",
+        "id": "3b2490c73de46735",
+        "text": "YOUTUBE PLAYLIST PLRdZ44gFTfl3hobkAy5P-_51uIcn_h5oj\nA sequence of simulations, by Mike Caulfield, to illustrate how ideas spread through a federation. This is the fifth part of a larger presentation, Federated Education: New Directions in Digital Collaboration. [http://hapgood.us/2014/11/06/federated-education-new-directions-in-digital-collaboration/ webpage]"
+      },
+      "date": 1475076194819
+    }
+  ]
+}

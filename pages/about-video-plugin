@@ -57,6 +57,11 @@
       "text": "Say <b>YOUTUBE</b> and a [[Key from YouTube]]."
     },
     {
+      "type": "markdown",
+      "id": "55173cbaf083f586",
+      "text": "Say **YOUTUBE PLAYLIST** and a [[Key from YouTube Playlist]]."
+    },
+    {
       "type": "html",
       "id": "2b9d57899e235839",
       "text": "Say <b>VIMEO</b> and a [[Key from Vimeo]]."
@@ -1154,6 +1159,61 @@
         "text": "Say **CHANNEL9** and a [[Key from a Channel 9 Talk]]"
       },
       "date": 1433689319913
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "55173cbaf083f586"
+      },
+      "id": "55173cbaf083f586",
+      "type": "add",
+      "after": "1adccc792e546ac6",
+      "date": 1475073163650
+    },
+    {
+      "type": "move",
+      "order": [
+        "d618f0df06ca75db",
+        "016470be0fd656b0",
+        "c4fe571a7d4b9266",
+        "23467e76c7406b75",
+        "b262d0358a094b85",
+        "288ca54be42b6221",
+        "766ee886eec15a62",
+        "0fe016e2e2cec946",
+        "df4d9685b5f1a93c",
+        "edd992beacdadf20",
+        "31ed01021009e01c",
+        "55173cbaf083f586",
+        "2b9d57899e235839",
+        "b482e0a6e80d235c",
+        "079161c9324efd8f",
+        "6c1ced54ed7e15b9",
+        "2e69d5aa0f67d445",
+        "1adccc792e546ac6"
+      ],
+      "id": "55173cbaf083f586",
+      "date": 1475073168173
+    },
+    {
+      "type": "edit",
+      "id": "55173cbaf083f586",
+      "item": {
+        "type": "markdown",
+        "id": "55173cbaf083f586",
+        "text": "Say **YOUTUBE PLAYLIST** and a [[Key from YouTube playlist]]."
+      },
+      "date": 1475073216525
+    },
+    {
+      "type": "edit",
+      "id": "55173cbaf083f586",
+      "item": {
+        "type": "markdown",
+        "id": "55173cbaf083f586",
+        "text": "Say **YOUTUBE PLAYLIST** and a [[Key from YouTube Playlist]]."
+      },
+      "date": 1475073246067
     }
   ],
   "plugin": "video"
