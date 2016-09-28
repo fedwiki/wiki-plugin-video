@@ -20,11 +20,19 @@ describe 'video plugin', ->
   describe 'embedding', ->
 
     it 'renders Youtube video', ->
-      embed = video.embed({ player: 'YOUTUBE', key: '12345'  })
+      embed = video.embed({ player: 'YOUTUBE', options: '', key: '12345'  })
       expect(embed).to.match ///
         <iframe
         [^>]*
-        src="//www\.youtube\.com/embed/12345\?rel=0"
+        src="https://www\.youtube-nocookie\.com/embed/12345\?rel=0"
+        ///
+
+    it 'renders Youtube playlist', ->
+      embed = video.embed({ player: 'YOUTUBE', options: 'PLAYLIST', key: '12345' })
+      expect(embed).to.match ///
+        <iframe
+        [^>]*
+        src="https://www\.youtube-nocookie\.com/embed/videoseries\?list=12345"
         ///
 
     it 'renders Vimeo video', ->
@@ -32,7 +40,7 @@ describe 'video plugin', ->
       expect(embed).to.match ///
         <iframe
         [^>]*
-        src="//player.vimeo.com/video/12345\?title=0&amp;byline=0&amp;portrait=0"
+        src="https://player.vimeo.com/video/12345\?title=0&amp;byline=0&amp;portrait=0"
         ///
 
     it 'renders Archive video', ->
@@ -64,7 +72,7 @@ describe 'video plugin', ->
       expect(embed).to.match ///
         <iframe
         [^>]*
-        src="//channel9.msdn.com/12345/player"
+        src="https://channel9.msdn.com/12345/player"
         ///
 
     it 'renders fallback text when player is not recognized', ->
