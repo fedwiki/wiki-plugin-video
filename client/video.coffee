@@ -16,6 +16,12 @@ parse = (text='') ->
       result.player = args[1]
       result.options = args[2]
       result.key = args[3]
+    else if args = line.match /^\s*([A-Z0-9]+)\s+([A-Za-z0-9]+)\s+(.+)\s*$/
+      try url = new UrlAdapter(args[3])
+      catch err then console.log "failed to parse URL: #{err}"
+      result.player = args[1]
+      result.options = args[2]
+      result.key = url.href
     else
       result.caption ||= ' '
       result.caption += line + ' '
@@ -85,6 +91,13 @@ embed = ({player, options, key}) ->
           allowFullScreen frameBorder="0">
         </iframe>
       """
+    when 'HTML5'
+      """
+        <video controls width="100%">
+          <source src="#{key}"
+                  type="video/#{options}">
+        </video>
+      """
     else
       "(unknown player)"
 
@@ -99,5 +112,9 @@ emit = ($item, item) ->
 bind = ($item, item) ->
   $item.dblclick -> wiki.textEditor $item, item
 
-window.plugins.video = {emit, bind} if window?
-module.exports = {parse, embed} if module?
+if window?
+  UrlAdapter = URL
+if module?
+  UrlAdapter = require('url').URL
+window.plugins.video = {emit, bind, UrlAdapter} if window?
+module.exports = {parse, embed, UrlAdapter} if module?
