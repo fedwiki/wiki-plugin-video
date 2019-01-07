@@ -13,7 +13,13 @@
     "email": "ward@c2.com",
     "url": "http://ward.fed.wiki.org"
   },
-  "contributors": [],
+  "contributors": [
+    {
+      "name": "Eric Dobbs",
+      "email": "eric@dobbse.net",
+      "url": "https://wiki.dbbs.co"
+    }
+  ],
   "scripts": {
     "test": "mocha"
   },
