@@ -87,6 +87,11 @@
       "text": "Say **CHANNEL9** and a [[Key from a Channel 9 Talk]]"
     },
     {
+      "type": "markdown",
+      "id": "b75971ce9662c72e",
+      "text": "Say **HTML5** and [[Keys for an HTML5 Talk]]"
+    },
+    {
       "type": "paragraph",
       "id": "1adccc792e546ac6",
       "text": "Say other things for the caption."
@@ -1214,7 +1219,17 @@
         "text": "Say **YOUTUBE PLAYLIST** and a [[Key from YouTube Playlist]]."
       },
       "date": 1475073246067
+    },
+    {
+      "type": "add",
+      "id": "b75971ce9662c72e",
+      "item": {
+        "type": "markdown",
+        "id": "b75971ce9662c72e",
+        "text": "Say **HTML5** and [[Keys for an HTML5 Talk]]"
+      },
+      "after": "2e69d5aa0f67d445",
+      "date": 1546793459087
     }
-  ],
-  "plugin": "video"
+  ]
 }
