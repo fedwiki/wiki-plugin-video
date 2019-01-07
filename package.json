@@ -13,18 +13,26 @@
     "email": "ward@c2.com",
     "url": "http://ward.fed.wiki.org"
   },
-  "contributors": [],
+  "contributors": [
+    {
+      "name": "Eric Dobbs",
+      "email": "eric@dobbse.net",
+      "url": "https://wiki.dbbs.co"
+    }
+  ],
   "scripts": {
     "test": "mocha"
   },
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
     "expect.js": "^0.3.1",
     "grunt": "^1.0.1",
-    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-coffee": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-git-authors": "^3.2.0",
     "grunt-mocha-test": "^0.13.2",
-    "mocha": "^3.1.0"
+    "mocha": "^5.2.0"
   },
   "license": "MIT",
   "repository": {

@@ -1,0 +1,117 @@
+{
+  "title": "Keys for an HTML5 Talk",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "8412a0ca4fd82598",
+      "text": "We explain how to choose media keys for HTML5 video.  Read [[About Video Plugin]] to understand media keys and the other services supported by the plugin."
+    },
+    {
+      "type": "paragraph",
+      "id": "e6be2ac181a80c1c",
+      "text": "Provide a mime video subtype and the URL to the video source.  Example mime video subtypes: [https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats#File_formats mozilla]"
+    },
+    {
+      "type": "paragraph",
+      "id": "a87c811dd1762d17",
+      "text": "This option can be used to display videos uploaded to wiki with the assets plugin.  [[About Assets Plugin]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "3784577c58d227a0",
+      "text": "This is an embedded video hosted at Wikipedia. Double-click the caption to see the plugin markup."
+    },
+    {
+      "type": "video",
+      "id": "0bd636dc523fb2a3",
+      "text": "HTML5 webm https://upload.wikimedia.org/wikipedia/commons/a/a1/Burgruine_Marmels%2C_aerial_video.webm\nBurgruine Marmels aerial video ([https://commons.wikimedia.org/wiki/File:Burgruine_Marmels,_aerial_video.webm wikimedia])"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Keys for an HTML5 Talk",
+        "story": []
+      },
+      "date": 1546819065593
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8412a0ca4fd82598"
+      },
+      "id": "8412a0ca4fd82598",
+      "type": "add",
+      "date": 1546819067342
+    },
+    {
+      "type": "edit",
+      "id": "8412a0ca4fd82598",
+      "item": {
+        "type": "paragraph",
+        "id": "8412a0ca4fd82598",
+        "text": "We explain how to choose media keys for HTML5 video.  Read [[About Video Plugin]] to understand media keys and the other services supported by the plugin."
+      },
+      "date": 1546819159338
+    },
+    {
+      "type": "add",
+      "id": "e6be2ac181a80c1c",
+      "item": {
+        "type": "paragraph",
+        "id": "e6be2ac181a80c1c",
+        "text": "Provide a mime type and the URL to the video source."
+      },
+      "after": "8412a0ca4fd82598",
+      "date": 1546820491125
+    },
+    {
+      "type": "fork",
+      "date": 1546831447497
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "video",
+        "id": "0bd636dc523fb2a3",
+        "text": "HTML5 webm https://upload.wikimedia.org/wikipedia/commons/a/a1/Burgruine_Marmels%2C_aerial_video.webm\nBurgruine Marmels aerial video ([https://commons.wikimedia.org/wiki/File:Burgruine_Marmels,_aerial_video.webm wikimedia])"
+      },
+      "after": "e6be2ac181a80c1c",
+      "id": "0bd636dc523fb2a3",
+      "date": 1546831462540
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "3784577c58d227a0",
+        "text": "This is an embedded video hosted at Wikipedia. Double-click the caption to see the plugin markup."
+      },
+      "after": "e6be2ac181a80c1c",
+      "id": "3784577c58d227a0",
+      "date": 1546831467165
+    },
+    {
+      "type": "add",
+      "id": "a87c811dd1762d17",
+      "item": {
+        "type": "paragraph",
+        "id": "a87c811dd1762d17",
+        "text": "This option can be used to display videos uploaded to wiki with the assets plugin.  [[About Assets Plugin]]"
+      },
+      "after": "e6be2ac181a80c1c",
+      "date": 1546831669697
+    },
+    {
+      "type": "edit",
+      "id": "e6be2ac181a80c1c",
+      "item": {
+        "type": "paragraph",
+        "id": "e6be2ac181a80c1c",
+        "text": "Provide a mime video subtype and the URL to the video source.  Example mime video subtypes: [https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats#File_formats mozilla]"
+      },
+      "date": 1546833405147
+    }
+  ]
+}

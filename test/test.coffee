@@ -17,6 +17,12 @@ describe 'video plugin', ->
       expect(result.key).to.be 'a1234'
       expect(result.caption).to.be ' Dummy caption More caption text '
 
+    it 'matches mime type as HTML5 option', ->
+      result = video.parse('HTML5 mp4 http://example.com/video.mp4')
+      expect(result.player).to.be 'HTML5'
+      expect(result.key).to.be 'http://example.com/video.mp4'
+      expect(result.options).to.be 'mp4'
+
   describe 'embedding', ->
 
     it 'renders Youtube video', ->
@@ -73,6 +79,15 @@ describe 'video plugin', ->
         <iframe
         [^>]*
         src="https://channel9.msdn.com/12345/player"
+        ///
+
+    it 'renders HTML5 video', ->
+      embed = video.embed({ player: 'HTML5', options: 'mp4', key: 'https://example.com/video.mp4' })
+      expect(embed).to.match ///
+        <video\s+controls\s+width="100%">\s+
+        <source\s+
+            src="https://example.com/video.mp4"\s+
+            type="video/mp4"
         ///
 
     it 'renders fallback text when player is not recognized', ->
