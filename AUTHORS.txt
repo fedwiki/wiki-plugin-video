@@ -4,3 +4,4 @@ Ward Cunningham <ward@c2.com>
 Paul Rodwell <paul.rodwell@btinternet.com>
 michaelarthurcaulfield <mcaulfield@outlook.com>
 Santiago Ferreira <santiago.ferreira@wyeworks.com>
+Eric Dobbs <eric@dobbse.net>
