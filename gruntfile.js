@@ -10,6 +10,7 @@ module.exports = function (grunt) {
       client: {
         expand: true,
         options: {
+          transpile: [],
           sourceMap: true
         },
         src: ['client/*.coffee', 'test/*.coffee'],
