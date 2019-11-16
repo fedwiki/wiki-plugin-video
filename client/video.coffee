@@ -16,7 +16,7 @@ parse = (text='') ->
       result.player = args[1]
       result.options = args[2]
       result.key = args[3]
-    else if args = line.match /^\s*([A-Z0-9]+)\s+([A-Za-z0-9]+)\s+(.+)\s*$/
+    else if args = line.match /^\s*(HTML5)\s+([A-Za-z0-9]+)\s+(.+)\s*$/
       try url = new UrlAdapter(args[3])
       catch err then console.log "failed to parse URL: #{err}"
       result.player = args[1]
