@@ -110,7 +110,7 @@ emit = ($item, item) ->
   """
 
 bind = ($item, item) ->
-  $item.dblclick -> wiki.textEditor $item, item
+  $item.on 'dblclick', () -> wiki.textEditor $item, item
 
 if window?
   UrlAdapter = URL
