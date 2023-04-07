@@ -1,6 +1,6 @@
 {
   "name": "wiki-plugin-video",
-  "version": "0.2.10",
+  "version": "0.3.0-rc.0",
   "description": "Federated Wiki - Video Plugin",
   "keywords": [
     "video",
