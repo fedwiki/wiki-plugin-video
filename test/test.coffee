@@ -65,22 +65,6 @@ describe 'video plugin', ->
         src="https://embed-ssl.ted.com/talks/12345.html"
         ///
 
-    it 'renders TEDX video', ->
-      embed = video.embed({ player: 'TEDX', key: '12345' })
-      expect(embed).to.match ///
-        <iframe
-        [^>]*
-        src="http://tedxtalks.ted.com/video/12345/player\?layout=&amp;read_more=1"
-        ///
-
-    it 'renders CHANNEL9 video', ->
-      embed = video.embed({ player: 'CHANNEL9', key: '12345' })
-      expect(embed).to.match ///
-        <iframe
-        [^>]*
-        src="https://channel9.msdn.com/12345/player"
-        ///
-
     it 'renders HTML5 video', ->
       embed = video.embed({ player: 'HTML5', options: 'mp4', key: 'https://example.com/video.mp4' })
       expect(embed).to.match ///

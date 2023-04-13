@@ -75,22 +75,6 @@ embed = ({player, options, key}) ->
           allowFullScreen>
         </iframe>
       """
-    when 'TEDX'
-      """
-        <iframe
-          src="http://tedxtalks.ted.com/video/#{key}/player?layout=&amp;read_more=1"
-          width="420" height="300"
-          frameborder="0" scrolling="no">
-        </iframe>
-      """
-    when 'CHANNEL9'
-      """
-        <iframe
-          src="https://channel9.msdn.com/#{key}/player"
-          width="420" height="236"
-          allowFullScreen frameBorder="0">
-        </iframe>
-      """
     when 'HTML5'
       """
         <video controls width="100%">
@@ -98,8 +82,17 @@ embed = ({player, options, key}) ->
                   type="video/#{options}">
         </video>
       """
+    # CHANNEL9 and TEDX sources are not longer available, so provide some guidance.
+    when 'TEDX'
+      """
+        <i>TEDx talks are now available in the TEDx YouTube channel. See #{wiki.resolveLinks('[[Updating TEDx items]]')} for help.</i><br>
+      """
+    when 'CHANNEL9'
+      """
+        <i>The Channel 9 site closed, see #{wiki.resolveLinks('[[Updating CHANNEL9 items]]')} for help.</i><br>
+      """
     else
-      "(unknown player)"
+     "(unknown player)"
 
 emit = ($item, item) ->
   result = parse item.text
