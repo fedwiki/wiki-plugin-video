@@ -1,0 +1,189 @@
+{
+  "title": "Updating TEDX items",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "b0225288b089e5f0",
+      "text": "TedX videos have moved from the TED site to the [https://www.youtube.com/@TEDx TEDx Talks - YouTube] channel."
+    },
+    {
+      "type": "paragraph",
+      "id": "9e41dd02105529f7",
+      "text": "Find pages using the now obsolete TEDX keyword."
+    },
+    {
+      "type": "grep",
+      "id": "1b9bc7f8faa92dab",
+      "text": "ITEM video\nTEXT TEDX"
+    },
+    {
+      "type": "markdown",
+      "id": "769566309d3c6c85",
+      "text": "The example talk we used which used `TEDX TEDxPortland-Ward-Cunningham` becomes `YOUTUBE BdwLczSgvcc`"
+    },
+    {
+      "type": "video",
+      "id": "fa0f3ec69c56e0c7",
+      "text": "YOUTUBE BdwLczSgvcc\nWard Cunningham"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Updating TEDX items",
+        "story": []
+      },
+      "date": 1681399186628
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b0225288b089e5f0"
+      },
+      "id": "b0225288b089e5f0",
+      "type": "add",
+      "date": 1681399196678
+    },
+    {
+      "type": "edit",
+      "id": "b0225288b089e5f0",
+      "item": {
+        "type": "paragraph",
+        "id": "b0225288b089e5f0",
+        "text": "TedX videos have moved from the TED site to the TEDx Talks - YouTube channel."
+      },
+      "date": 1681400359163
+    },
+    {
+      "type": "edit",
+      "id": "b0225288b089e5f0",
+      "item": {
+        "type": "paragraph",
+        "id": "b0225288b089e5f0",
+        "text": "TedX videos have moved from the TED site to the [https://www.youtube.com/@TEDx TEDx Talks - YouTube] channel."
+      },
+      "date": 1681400409620
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9e41dd02105529f7"
+      },
+      "id": "9e41dd02105529f7",
+      "type": "add",
+      "after": "b0225288b089e5f0",
+      "date": 1681400419584
+    },
+    {
+      "type": "edit",
+      "id": "9e41dd02105529f7",
+      "item": {
+        "type": "paragraph",
+        "id": "9e41dd02105529f7",
+        "text": "Find pages using the now obsolete TEDX keyword."
+      },
+      "date": 1681400452877
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "1b9bc7f8faa92dab"
+      },
+      "id": "1b9bc7f8faa92dab",
+      "type": "add",
+      "after": "9e41dd02105529f7",
+      "date": 1681400454798
+    },
+    {
+      "type": "edit",
+      "id": "1b9bc7f8faa92dab",
+      "item": {
+        "type": "grep",
+        "id": "1b9bc7f8faa92dab",
+        "text": "ITEM video\nTEXT TEDX"
+      },
+      "date": 1681400471204
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "769566309d3c6c85"
+      },
+      "id": "769566309d3c6c85",
+      "type": "add",
+      "after": "1b9bc7f8faa92dab",
+      "date": 1681400565378
+    },
+    {
+      "type": "edit",
+      "id": "769566309d3c6c85",
+      "item": {
+        "type": "markdown",
+        "id": "769566309d3c6c85",
+        "text": "For example `TEDX TEDxPortland-Ward-Cunningham` becomes `YOUTUBE `"
+      },
+      "date": 1681400630898
+    },
+    {
+      "type": "edit",
+      "id": "769566309d3c6c85",
+      "item": {
+        "type": "markdown",
+        "id": "769566309d3c6c85",
+        "text": "For example `TEDX TEDxPortland-Ward-Cunningham` becomes `YOUTUBE BdwLczSgvcc`"
+      },
+      "date": 1681400665921
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "fa0f3ec69c56e0c7"
+      },
+      "id": "fa0f3ec69c56e0c7",
+      "type": "add",
+      "after": "769566309d3c6c85",
+      "date": 1681400669975
+    },
+    {
+      "type": "edit",
+      "id": "fa0f3ec69c56e0c7",
+      "item": {
+        "type": "video",
+        "id": "fa0f3ec69c56e0c7",
+        "text": "YOUTUBE BdwLczSgvcc"
+      },
+      "date": 1681400679083
+    },
+    {
+      "type": "edit",
+      "id": "fa0f3ec69c56e0c7",
+      "item": {
+        "type": "video",
+        "id": "fa0f3ec69c56e0c7",
+        "text": "YOUTUBE BdwLczSgvcc\nWard Cunningham"
+      },
+      "date": 1681400692438
+    },
+    {
+      "type": "edit",
+      "id": "769566309d3c6c85",
+      "item": {
+        "type": "markdown",
+        "id": "769566309d3c6c85",
+        "text": "The example talk we used as an example `TEDX TEDxPortland-Ward-Cunningham` becomes `YOUTUBE BdwLczSgvcc`"
+      },
+      "date": 1681400816809
+    },
+    {
+      "type": "edit",
+      "id": "769566309d3c6c85",
+      "item": {
+        "type": "markdown",
+        "id": "769566309d3c6c85",
+        "text": "The example talk we used which used `TEDX TEDxPortland-Ward-Cunningham` becomes `YOUTUBE BdwLczSgvcc`"
+      },
+      "date": 1681400881923
+    }
+  ]
+}

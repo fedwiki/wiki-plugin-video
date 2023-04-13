@@ -1,0 +1,270 @@
+{
+  "title": "Updating CHANNEL9 items",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "ecddf27913cb5bd6",
+      "text": "In November 2021 Channel 9 became part of Microsoft Learn, and the site videos were embedded from closed."
+    },
+    {
+      "type": "paragraph",
+      "id": "319c824263700331",
+      "text": "However, Channel 9 videos are still available via the Internet Archive, so can be embedded as HTML5 videos. There is a [https://walkingcat.github.io/ch9-index Channel 9 Index] which will help find the video's page in the web archive. You might have to inspect the page source to find the link that can be embedded."
+    },
+    {
+      "type": "paragraph",
+      "id": "918211d5c535d3f2",
+      "text": "Find pages with Channel 9 videos."
+    },
+    {
+      "type": "grep",
+      "id": "73ae245877a660fc",
+      "text": "ITEM video\nTEXT CHANNEL9"
+    },
+    {
+      "type": "paragraph",
+      "id": "aa8634b121274920",
+      "text": "The [https://walkingcat.github.io/ch9-index Channel 9 Index] provides links into the Internet Archive Wayback Machine's archive of the old Channel 9 MSDN site. This appears to contain pages in a mix of different languages. But, below the video there are three tabs - Description, Embed, and Download. Use the Download tab to find the link you need for embedding a HTML5 video item."
+    },
+    {
+      "type": "paragraph",
+      "id": "5d77743cd44ea36c",
+      "text": "As an example, a video of the late Bill Hill talking [https://web.archive.org/web/20211022041353/https://channel9.msdn.com/Shows/MS-Archives/Bill-Hill-There-is-only-one-space-after-a-period \"There is only one space after a period\"]. Double click the caption in to see the plugin markup."
+    },
+    {
+      "type": "video",
+      "id": "2e6ae34cacf251fc",
+      "text": "HTML5 mp4 https://web.archive.org/web/20211022041353/https://sec.ch9.ms/ch9/e554/78e3c1d0-8953-43cd-af48-dc0fb173e554/BillHill2004OneSpace_high.mp4\nAre you a one spacer or a two spacer? Bill Hill gives his opinion on why you only put one space after a period. This video was shot in 2004. "
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Updating CHANNEL9 items",
+        "story": []
+      },
+      "date": 1681398057989
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ecddf27913cb5bd6"
+      },
+      "id": "ecddf27913cb5bd6",
+      "type": "add",
+      "date": 1681398100159
+    },
+    {
+      "type": "edit",
+      "id": "ecddf27913cb5bd6",
+      "item": {
+        "type": "paragraph",
+        "id": "ecddf27913cb5bd6",
+        "text": "In November 2021 Channel 9 became part of Microsoft Learn. "
+      },
+      "date": 1681398180020
+    },
+    {
+      "type": "edit",
+      "id": "ecddf27913cb5bd6",
+      "item": {
+        "type": "paragraph",
+        "id": "ecddf27913cb5bd6",
+        "text": "In November 2021 Channel 9 became part of Microsoft Learn, and the site videos were embedded from closed."
+      },
+      "date": 1681398403478
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "319c824263700331"
+      },
+      "id": "319c824263700331",
+      "type": "add",
+      "after": "ecddf27913cb5bd6",
+      "date": 1681398421074
+    },
+    {
+      "type": "edit",
+      "id": "319c824263700331",
+      "item": {
+        "type": "paragraph",
+        "id": "319c824263700331",
+        "text": "The is a "
+      },
+      "date": 1681398439554
+    },
+    {
+      "type": "edit",
+      "id": "319c824263700331",
+      "item": {
+        "type": "paragraph",
+        "id": "319c824263700331",
+        "text": "However, Channel 9 videos are still available via "
+      },
+      "date": 1681398490264
+    },
+    {
+      "type": "edit",
+      "id": "319c824263700331",
+      "item": {
+        "type": "paragraph",
+        "id": "319c824263700331",
+        "text": "However, Channel 9 videos are still available via the Internet Archive, so can be embedded using the HTML5 key"
+      },
+      "date": 1681398562952
+    },
+    {
+      "type": "edit",
+      "id": "319c824263700331",
+      "item": {
+        "type": "paragraph",
+        "id": "319c824263700331",
+        "text": "However, Channel 9 videos are still available via the Internet Archive, so can be embedded as HTML5 videos. A"
+      },
+      "date": 1681398630191
+    },
+    {
+      "type": "edit",
+      "id": "319c824263700331",
+      "item": {
+        "type": "paragraph",
+        "id": "319c824263700331",
+        "text": "However, Channel 9 videos are still available via the Internet Archive, so can be embedded as HTML5 videos. See [https://walkingcat.github.io/ch9-index Channel 9 Index]."
+      },
+      "date": 1681398736336
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "918211d5c535d3f2"
+      },
+      "id": "918211d5c535d3f2",
+      "type": "add",
+      "after": "319c824263700331",
+      "date": 1681398749551
+    },
+    {
+      "type": "edit",
+      "id": "918211d5c535d3f2",
+      "item": {
+        "type": "paragraph",
+        "id": "918211d5c535d3f2",
+        "text": "Pages with Channel 9 videos can be found"
+      },
+      "date": 1681398806514
+    },
+    {
+      "type": "edit",
+      "id": "918211d5c535d3f2",
+      "item": {
+        "type": "paragraph",
+        "id": "918211d5c535d3f2",
+        "text": "Find pages with Channel 9 videos."
+      },
+      "date": 1681398860334
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "73ae245877a660fc"
+      },
+      "id": "73ae245877a660fc",
+      "type": "add",
+      "after": "918211d5c535d3f2",
+      "date": 1681398861691
+    },
+    {
+      "type": "edit",
+      "id": "73ae245877a660fc",
+      "item": {
+        "type": "grep",
+        "id": "73ae245877a660fc",
+        "text": "ITEM video\nTEXT CHANNEL9"
+      },
+      "date": 1681398882756
+    },
+    {
+      "type": "edit",
+      "id": "319c824263700331",
+      "item": {
+        "type": "paragraph",
+        "id": "319c824263700331",
+        "text": "However, Channel 9 videos are still available via the Internet Archive, so can be embedded as HTML5 videos. There is a [https://walkingcat.github.io/ch9-index Channel 9 Index] which will help find the page in ."
+      },
+      "date": 1681401972142
+    },
+    {
+      "type": "edit",
+      "id": "319c824263700331",
+      "item": {
+        "type": "paragraph",
+        "id": "319c824263700331",
+        "text": "However, Channel 9 videos are still available via the Internet Archive, so can be embedded as HTML5 videos. There is a [https://walkingcat.github.io/ch9-index Channel 9 Index] which will help find the video's page in the web archive. You might have to inspect the page source to find the link that can be embedded."
+      },
+      "date": 1681402067776
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "aa8634b121274920"
+      },
+      "id": "aa8634b121274920",
+      "type": "add",
+      "after": "73ae245877a660fc",
+      "date": 1681404357988
+    },
+    {
+      "type": "edit",
+      "id": "aa8634b121274920",
+      "item": {
+        "type": "paragraph",
+        "id": "aa8634b121274920",
+        "text": "The [https://walkingcat.github.io/ch9-index Channel 9 Index] provides links into the Internet Archive Wayback Machine's archive of the old Channel 9 MSDN site. This appears to contain pages in a mix of different languages. But, below the video there will be three tabs - Description, Embed, and Download. Use the Download tab to find the link you need for embedding a HTML5 video item."
+      },
+      "date": 1681404378274
+    },
+    {
+      "type": "add",
+      "id": "5d77743cd44ea36c",
+      "item": {
+        "type": "paragraph",
+        "id": "5d77743cd44ea36c",
+        "text": "As an example, a video of the late Bill Hill talking [https://web.archive.org/web/20211022041353/https://channel9.msdn.com/Shows/MS-Archives/Bill-Hill-There-is-only-one-space-after-a-period \"There is only one space after a period\"]. Double click the caption in to see the plugin markup."
+      },
+      "after": "aa8634b121274920",
+      "date": 1681404391943
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2e6ae34cacf251fc"
+      },
+      "id": "2e6ae34cacf251fc",
+      "type": "add",
+      "after": "5d77743cd44ea36c",
+      "date": 1681404395234
+    },
+    {
+      "type": "edit",
+      "id": "2e6ae34cacf251fc",
+      "item": {
+        "type": "video",
+        "id": "2e6ae34cacf251fc",
+        "text": "HTML5 mp4 https://web.archive.org/web/20211022041353/https://sec.ch9.ms/ch9/e554/78e3c1d0-8953-43cd-af48-dc0fb173e554/BillHill2004OneSpace_high.mp4\nAre you a one spacer or a two spacer? Bill Hill gives his opinion on why you only put one space after a period. This video was shot in 2004. "
+      },
+      "date": 1681404405152
+    },
+    {
+      "type": "edit",
+      "id": "aa8634b121274920",
+      "item": {
+        "type": "paragraph",
+        "id": "aa8634b121274920",
+        "text": "The [https://walkingcat.github.io/ch9-index Channel 9 Index] provides links into the Internet Archive Wayback Machine's archive of the old Channel 9 MSDN site. This appears to contain pages in a mix of different languages. But, below the video there are three tabs - Description, Embed, and Download. Use the Download tab to find the link you need for embedding a HTML5 video item."
+      },
+      "date": 1681404694281
+    }
+  ]
+}
