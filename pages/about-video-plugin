@@ -52,9 +52,9 @@
       "text": "Double-click the caption to enter a key or change the caption."
     },
     {
-      "type": "html",
+      "type": "markdown",
       "id": "31ed01021009e01c",
-      "text": "Say <b>YOUTUBE</b> and a [[Key from YouTube]]."
+      "text": "Say **YOUTUBE** and a [[Key from YouTube]]."
     },
     {
       "type": "markdown",
@@ -62,29 +62,19 @@
       "text": "Say **YOUTUBE PLAYLIST** and a [[Key from YouTube Playlist]]."
     },
     {
-      "type": "html",
+      "type": "markdown",
       "id": "2b9d57899e235839",
-      "text": "Say <b>VIMEO</b> and a [[Key from Vimeo]]."
-    },
-    {
-      "type": "html",
-      "id": "b482e0a6e80d235c",
-      "text": "Say <b>ARCHIVE</b> and a [[Key from Internet Archive]]."
-    },
-    {
-      "type": "html",
-      "id": "079161c9324efd8f",
-      "text": "Say <b>TED</b> and a [[Key from a TED Talk]]."
-    },
-    {
-      "type": "html",
-      "id": "6c1ced54ed7e15b9",
-      "text": "Say <b>TEDX</b> and a [[Key from a TEDx Talk]]."
+      "text": "Say **VIMEO** and a [[Key from Vimeo]]."
     },
     {
       "type": "markdown",
-      "id": "2e69d5aa0f67d445",
-      "text": "Say **CHANNEL9** and a [[Key from a Channel 9 Talk]]"
+      "id": "b482e0a6e80d235c",
+      "text": "Say **ARCHIVE** and a [[Key from Internet Archive]]."
+    },
+    {
+      "type": "markdown",
+      "id": "079161c9324efd8f",
+      "text": "Say **TED** and a [[Key from a TED Talk]]."
     },
     {
       "type": "markdown",
@@ -95,6 +85,21 @@
       "type": "paragraph",
       "id": "1adccc792e546ac6",
       "text": "Say other things for the caption."
+    },
+    {
+      "type": "markdown",
+      "id": "8b580e0e690c8e16",
+      "text": "# Obsolete Commands"
+    },
+    {
+      "type": "paragraph",
+      "id": "7403b15b5e005dca",
+      "text": "Since this plugin added them, the video sources for TEDx and Channel 9 no longer exist. Many of the videos can be found elsewhere."
+    },
+    {
+      "type": "paragraph",
+      "id": "9c908ff9aa767e2a",
+      "text": "See [[Updating CHANNEL9 items]] and [[Updating TEDX items]] for help finding, and updating, pages with video items those video sources."
     }
   ],
   "journal": [
@@ -1230,6 +1235,127 @@
       },
       "after": "2e69d5aa0f67d445",
       "date": 1546793459087
+    },
+    {
+      "type": "edit",
+      "id": "31ed01021009e01c",
+      "item": {
+        "type": "markdown",
+        "id": "31ed01021009e01c",
+        "text": "Say **YOUTUBE** and a [[Key from YouTube]]."
+      },
+      "date": 1681397382779
+    },
+    {
+      "type": "edit",
+      "id": "2b9d57899e235839",
+      "item": {
+        "type": "markdown",
+        "id": "2b9d57899e235839",
+        "text": "Say **VIMEO** and a [[Key from Vimeo]]."
+      },
+      "date": 1681397425618
+    },
+    {
+      "type": "edit",
+      "id": "b482e0a6e80d235c",
+      "item": {
+        "type": "markdown",
+        "id": "b482e0a6e80d235c",
+        "text": "Say **ARCHIVE** and a [[Key from Internet Archive]]."
+      },
+      "date": 1681397450155
+    },
+    {
+      "type": "edit",
+      "id": "079161c9324efd8f",
+      "item": {
+        "type": "html",
+        "id": "079161c9324efd8f",
+        "text": "Say **TED** and a [[Key from a TED Talk]]."
+      },
+      "date": 1681397468234
+    },
+    {
+      "type": "edit",
+      "id": "079161c9324efd8f",
+      "item": {
+        "type": "markdown",
+        "id": "079161c9324efd8f",
+        "text": "Say **TED** and a [[Key from a TED Talk]]."
+      },
+      "date": 1681397498756
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8b580e0e690c8e16"
+      },
+      "id": "8b580e0e690c8e16",
+      "type": "add",
+      "after": "1adccc792e546ac6",
+      "date": 1681397515109
+    },
+    {
+      "type": "edit",
+      "id": "8b580e0e690c8e16",
+      "item": {
+        "type": "factory",
+        "id": "8b580e0e690c8e16",
+        "text": "#"
+      },
+      "date": 1681397529325
+    },
+    {
+      "type": "edit",
+      "id": "8b580e0e690c8e16",
+      "item": {
+        "type": "markdown",
+        "id": "8b580e0e690c8e16",
+        "text": "# Obsolete Commands"
+      },
+      "date": 1681397557705
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7403b15b5e005dca"
+      },
+      "id": "7403b15b5e005dca",
+      "type": "add",
+      "after": "8b580e0e690c8e16",
+      "date": 1681397559538
+    },
+    {
+      "type": "edit",
+      "id": "7403b15b5e005dca",
+      "item": {
+        "type": "paragraph",
+        "id": "7403b15b5e005dca",
+        "text": "Since this plugin added them, the video sources for TEDx and Channel 9 no longer exist. Many of the videos can be found elsewhere."
+      },
+      "date": 1681397801609
+    },
+    {
+      "type": "remove",
+      "id": "2e69d5aa0f67d445",
+      "date": 1681398943484
+    },
+    {
+      "type": "remove",
+      "id": "6c1ced54ed7e15b9",
+      "date": 1681398966500
+    },
+    {
+      "type": "add",
+      "id": "9c908ff9aa767e2a",
+      "item": {
+        "type": "paragraph",
+        "id": "9c908ff9aa767e2a",
+        "text": "See [[Updating CHANNEL9 items]] and [[Updating TEDX items]] for help finding, and updating, pages with video items those video sources."
+      },
+      "after": "7403b15b5e005dca",
+      "date": 1681404615755
     }
   ]
 }
