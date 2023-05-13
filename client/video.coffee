@@ -8,7 +8,7 @@
 parse = (text='') ->
   result = {}
   for line in text.split /\r\n?|\n/
-    if args = line.match /^\s*START\s+([\w\.\-\/+0-9]+)\s*$/
+    if args = line.match /^\s*START\s+([\w\.\-\/+0-9m]+)\s*$/
       result.start = args[1]
     else if args = line.match /^\s*END\s+([\w\.\-\/+0-9]+)\s*$/
       result.end = args[1]
@@ -57,9 +57,15 @@ embed = ({player, options, key, start, end}) ->
           </iframe>
         """
     when 'VIMEO'
+      params = []
+      params.push("byline=0")
+      params.push("dnt=1")
+      params.push("portrait=0")
+      params.push("title=0")
+      params.push("#t=#{start}") if start?
       """
         <iframe
-          src="https://player.vimeo.com/video/#{key}?title=0&amp;byline=0&amp;portrait=0"
+          src="https://player.vimeo.com/video/#{key}?#{params.join('&')}"
           width="420" height="236"
           frameborder="0"
           allowfullscreen>

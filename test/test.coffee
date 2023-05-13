@@ -62,7 +62,15 @@ describe 'video plugin', ->
       expect(embed).to.match ///
         <iframe
         [^>]*
-        src="https://player.vimeo.com/video/12345\?title=0&amp;byline=0&amp;portrait=0"
+        src="https://player.vimeo.com/video/12345\?byline=0&dnt=1&portrait=0&title=0"
+        ///
+
+    it 'renders Vimeo with start time', ->
+      embed = video.embed({ player: 'VIMEO', key: '12345', start: '1m20' })
+      expect(embed).to.match ///
+        <iframe
+        [^>]*
+        src="https://player.vimeo.com/video/12345\?byline=0&dnt=1&portrait=0&title=0&#t=1m20"
         ///
 
     it 'renders Archive video', ->
