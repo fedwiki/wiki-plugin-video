@@ -11,6 +11,14 @@ describe 'video plugin', ->
       expect(result.key).to.be 'a1234'
       expect(result.caption).to.be ' Dummy caption More caption text '
 
+    it 'parses START and END', ->
+      result = video.parse('YOUTUBE a1234\nSTART 290\nEND 500\nDummy caption\nMore caption text')
+      expect(result.player).to.be 'YOUTUBE'
+      expect(result.start).to.be '290'
+      expect(result.end).to.be '500'
+      expect(result.key).to.be 'a1234'
+      expect(result.caption).to.be ' Dummy caption More caption text '
+
     it 'allows video declaration to be below caption', ->
       result = video.parse('Dummy caption\nMore caption text\nYOUTUBE a1234')
       expect(result.player).to.be 'YOUTUBE'
@@ -33,12 +41,20 @@ describe 'video plugin', ->
         src="https://www\.youtube-nocookie\.com/embed/12345\?rel=0"
         ///
 
+    it 'renders Youtube with start and end time', ->
+      embed = video.embed({ player: 'YOUTUBE', options: '', key: '12345', start: '290', end: '500' })
+      expect(embed).to.match ///
+        <iframe
+        [^>]*
+        src="https://www\.youtube-nocookie\.com/embed/12345\?start=290&end=500&rel=0"
+        ///
+
     it 'renders Youtube playlist', ->
       embed = video.embed({ player: 'YOUTUBE', options: 'PLAYLIST', key: '12345' })
       expect(embed).to.match ///
         <iframe
         [^>]*
-        src="https://www\.youtube-nocookie\.com/embed/videoseries\?list=12345"
+        src="https://www\.youtube-nocookie\.com/embed/videoseries\?list=12345&rel=0"
         ///
 
     it 'renders Vimeo video', ->

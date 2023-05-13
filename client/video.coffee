@@ -8,7 +8,11 @@
 parse = (text='') ->
   result = {}
   for line in text.split /\r\n?|\n/
-    if args = line.match /^\s*([A-Z0-9]{3,})\s+([\w\.\-\/+0-9]+)\s*$/
+    if args = line.match /^\s*START\s+([\w\.\-\/+0-9]+)\s*$/
+      result.start = args[1]
+    else if args = line.match /^\s*END\s+([\w\.\-\/+0-9]+)\s*$/
+      result.end = args[1]
+    else if args = line.match /^\s*([A-Z0-9]{3,})\s+([\w\.\-\/+0-9]+)\s*$/
       result.player = args[1]
       result.options = ''
       result.key = args[2]
@@ -27,23 +31,27 @@ parse = (text='') ->
       result.caption += line + ' '
   result
 
-embed = ({player, options, key}) ->
+embed = ({player, options, key, start, end}) ->
   switch player
     when 'YOUTUBE'
       if options.toUpperCase() is "PLAYLIST"
         """
           <iframe
             width="420" height="236"
-            src="https://www.youtube-nocookie.com/embed/videoseries?list=#{key}"
+            src="https://www.youtube-nocookie.com/embed/videoseries?list=#{key}&rel=0"
             frameborder="0"
             allowfullscreen>
           </iframe>
         """
       else
+        params = []
+        params.push("start=#{start}") if start?
+        params.push("end=#{end}") if end?
+        params.push("rel=0")
         """
           <iframe
             width="420" height="236"
-            src="https://www.youtube-nocookie.com/embed/#{key}?rel=0"
+            src="https://www.youtube-nocookie.com/embed/#{key}?#{params.join('&')}"
             frameborder="0"
             allowfullscreen>
           </iframe>
