@@ -8,9 +8,9 @@
 parse = (text='') ->
   result = {}
   for line in text.split /\r\n?|\n/
-    if args = line.match /^\s*START\s+([\w\.\-\/+0-9m]+)\s*$/
+    if args = line.match /^\s*START\s+([\w:\.]+)\s*$/
       result.start = args[1]
-    else if args = line.match /^\s*END\s+([\w\.\-\/+0-9]+)\s*$/
+    else if args = line.match /^\s*END\s+([\w:\.]+)\s*$/
       result.end = args[1]
     else if args = line.match /^\s*([A-Z0-9]{3,})\s+([\w\.\-\/+0-9]+)\s*$/
       result.player = args[1]
@@ -45,8 +45,8 @@ embed = ({player, options, key, start, end}) ->
         """
       else
         params = []
-        params.push("start=#{start}") if start?
-        params.push("end=#{end}") if end?
+        params.push("start=#{start.split(':').reduce((acc,curr) -> (acc * 60) + Number(curr))}") if start?
+        params.push("end=#{end.split(':').reduce((acc,curr) -> (acc * 60) + Number(curr))}") if end?
         params.push("rel=0")
         """
           <iframe
@@ -90,8 +90,13 @@ embed = ({player, options, key, start, end}) ->
         </iframe>
       """
     when 'HTML5'
+      if !key.includes('#t=') and start? or end?
+        fragment = "#t="
+        fragment += start if start
+        fragment += ",#{end}" if end
+        key = key + fragment
       """
-        <video controls width="100%">
+        <video controls preload="metadata" width="100%">
           <source src="#{key}"
                   type="video/#{options}">
         </video>

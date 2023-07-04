@@ -12,10 +12,10 @@ describe 'video plugin', ->
       expect(result.caption).to.be ' Dummy caption More caption text '
 
     it 'parses START and END', ->
-      result = video.parse('YOUTUBE a1234\nSTART 290\nEND 500\nDummy caption\nMore caption text')
+      result = video.parse('YOUTUBE a1234\nSTART 46:10\nEND 1:09:10\nDummy caption\nMore caption text')
       expect(result.player).to.be 'YOUTUBE'
-      expect(result.start).to.be '290'
-      expect(result.end).to.be '500'
+      expect(result.start).to.be '46:10'
+      expect(result.end).to.be '1:09:10'
       expect(result.key).to.be 'a1234'
       expect(result.caption).to.be ' Dummy caption More caption text '
 
@@ -42,7 +42,7 @@ describe 'video plugin', ->
         ///
 
     it 'renders Youtube with start and end time', ->
-      embed = video.embed({ player: 'YOUTUBE', options: '', key: '12345', start: '290', end: '500' })
+      embed = video.embed({ player: 'YOUTUBE', options: '', key: '12345', start: '4:50', end: '8:20' })
       expect(embed).to.match ///
         <iframe
         [^>]*
@@ -66,11 +66,11 @@ describe 'video plugin', ->
         ///
 
     it 'renders Vimeo with start time', ->
-      embed = video.embed({ player: 'VIMEO', key: '12345', start: '1m20' })
+      embed = video.embed({ player: 'VIMEO', key: '12345', start: '1:20' })
       expect(embed).to.match ///
         <iframe
         [^>]*
-        src="https://player.vimeo.com/video/12345\?byline=0&dnt=1&portrait=0&title=0&#t=1m20"
+        src="https://player.vimeo.com/video/12345\?byline=0&dnt=1&portrait=0&title=0&#t=1:20"
         ///
 
     it 'renders Archive video', ->
@@ -92,11 +92,29 @@ describe 'video plugin', ->
     it 'renders HTML5 video', ->
       embed = video.embed({ player: 'HTML5', options: 'mp4', key: 'https://example.com/video.mp4' })
       expect(embed).to.match ///
-        <video\s+controls\s+width="100%">\s+
+        <video\s+controls\s+preload="metadata"\s+width="100%">\s+
         <source\s+
             src="https://example.com/video.mp4"\s+
             type="video/mp4"
         ///
+    
+    it 'renders HTML5 video with start', ->
+      embed = video.embed({ player: 'HTML5', options: 'mp4', key: 'https://example.com/video.mp4', start: '45' })
+      expect(embed).to.match ///
+        <video\s+controls\s+preload="metadata"\s+width="100%">\s+
+          <source\s+
+              src="https://example.com/video.mp4#t=45"\s+
+              type="video/mp4"
+      ///
+
+    it 'renders HTML5 video with end', ->
+      embed = video.embed({ player: 'HTML5', options: 'mp4', key: 'https://example.com/video.mp4', end: '45' })
+      expect(embed).to.match ///
+        <video\s+controls\s+preload="metadata"\s+width="100%">\s+
+          <source\s+
+              src="https://example.com/video.mp4#t=,45"\s+
+              type="video/mp4"
+      ///
 
     it 'renders fallback text when player is not recognized', ->
       embed = video.embed({ player: 'DUMMY', key: '12345' })
