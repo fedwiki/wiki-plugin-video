@@ -88,6 +88,16 @@
     },
     {
       "type": "markdown",
+      "id": "4841344a76d79938",
+      "text": "# Start, and End, Time"
+    },
+    {
+      "type": "markdown",
+      "id": "ff7b10e129cd93b7",
+      "text": "With Vimeo it is possible to set a start time, YouTube and HTML5 also supports setting an end time."
+    },
+    {
+      "type": "markdown",
       "id": "8b580e0e690c8e16",
       "text": "# Obsolete Commands"
     },
@@ -1356,6 +1366,28 @@
       },
       "after": "7403b15b5e005dca",
       "date": 1681404615755
+    },
+    {
+      "type": "add",
+      "id": "4841344a76d79938",
+      "item": {
+        "type": "markdown",
+        "id": "4841344a76d79938",
+        "text": "# Start, and End, Time"
+      },
+      "after": "1adccc792e546ac6",
+      "date": 1684591150772
+    },
+    {
+      "type": "add",
+      "id": "ff7b10e129cd93b7",
+      "item": {
+        "type": "markdown",
+        "id": "ff7b10e129cd93b7",
+        "text": "With Vimeo it is possible to set a start time, YouTube and HTML5 also supports setting an end time."
+      },
+      "after": "4841344a76d79938",
+      "date": 1684591244447
     }
   ]
 }
