@@ -8,7 +8,11 @@
 parse = (text='') ->
   result = {}
   for line in text.split /\r\n?|\n/
-    if args = line.match /^\s*([A-Z0-9]{3,})\s+([\w\.\-\/+0-9]+)\s*$/
+    if args = line.match /^\s*START\s+([\w:\.]+)\s*$/
+      result.start = args[1]
+    else if args = line.match /^\s*END\s+([\w:\.]+)\s*$/
+      result.end = args[1]
+    else if args = line.match /^\s*([A-Z0-9]{3,})\s+([\w\.\-\/+0-9]+)\s*$/
       result.player = args[1]
       result.options = ''
       result.key = args[2]
@@ -27,31 +31,41 @@ parse = (text='') ->
       result.caption += line + ' '
   result
 
-embed = ({player, options, key}) ->
+embed = ({player, options, key, start, end}) ->
   switch player
     when 'YOUTUBE'
       if options.toUpperCase() is "PLAYLIST"
         """
           <iframe
             width="420" height="236"
-            src="https://www.youtube-nocookie.com/embed/videoseries?list=#{key}"
+            src="https://www.youtube-nocookie.com/embed/videoseries?list=#{key}&rel=0"
             frameborder="0"
             allowfullscreen>
           </iframe>
         """
       else
+        params = []
+        params.push("start=#{start.split(':').reduce((acc,curr) -> (acc * 60) + Number(curr))}") if start?
+        params.push("end=#{end.split(':').reduce((acc,curr) -> (acc * 60) + Number(curr))}") if end?
+        params.push("rel=0")
         """
           <iframe
             width="420" height="236"
-            src="https://www.youtube-nocookie.com/embed/#{key}?rel=0"
+            src="https://www.youtube-nocookie.com/embed/#{key}?#{params.join('&')}"
             frameborder="0"
             allowfullscreen>
           </iframe>
         """
     when 'VIMEO'
+      params = []
+      params.push("byline=0")
+      params.push("dnt=1")
+      params.push("portrait=0")
+      params.push("title=0")
+      params.push("#t=#{start}") if start?
       """
         <iframe
-          src="https://player.vimeo.com/video/#{key}?title=0&amp;byline=0&amp;portrait=0"
+          src="https://player.vimeo.com/video/#{key}?#{params.join('&')}"
           width="420" height="236"
           frameborder="0"
           allowfullscreen>
@@ -76,8 +90,13 @@ embed = ({player, options, key}) ->
         </iframe>
       """
     when 'HTML5'
+      if !key.includes('#t=') and start? or end?
+        fragment = "#t="
+        fragment += start if start
+        fragment += ",#{end}" if end
+        key = key + fragment
       """
-        <video controls width="100%">
+        <video controls preload="metadata" width="100%">
           <source src="#{key}"
                   type="video/#{options}">
         </video>
