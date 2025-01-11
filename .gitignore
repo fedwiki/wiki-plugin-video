@@ -1,4 +1,5 @@
-/*/*.js
-/*/*.map
+client/video.js*
+coverage
 node_modules
 npm-debug.log
+meta-client.json
