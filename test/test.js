@@ -1,4 +1,5 @@
 import { video } from '../src/client/video.js'
+import { describe, it } from 'node:test'
 import expect from 'expect.js'
 
 describe('video plugin', () => {

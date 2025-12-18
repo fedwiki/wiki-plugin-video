@@ -25,7 +25,7 @@
     "clean": "rm client/video.js client/video.js.map",
     "prettier:format": "prettier --write './**/*.js'",
     "prettier:check": "prettier --check ./**/*.js",
-    "test": "mocha",
+    "test": "node --test",
     "update-authors": "node scripts/update-authors.cjs"
   },
   "devDependencies": {
@@ -35,7 +35,6 @@
     "expect.js": "^0.3.1",
     "globals": "^16.0.0",
     "grunt-git-authors": "^3.2.0",
-    "mocha": "^11.1.0",
     "prettier": "^3.5.2"
   },
   "license": "MIT",
